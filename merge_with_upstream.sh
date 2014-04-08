@@ -13,5 +13,8 @@ if [ $? != 0 ]; then
 	rm -rf .mgc_temp
 	rm -rf .Magdir
 	cp -R ../magic/Magdir .
+	git rm db/*/*.pickle
 	LD_LIBRARY_PATH=. python ./update-db.py file-trunk Magdir ./lt-file
+	git add db/*/*.pickle
+	git commit -a -m "Automatic database update"
 fi
