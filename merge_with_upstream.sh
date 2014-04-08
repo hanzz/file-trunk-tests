@@ -1,8 +1,9 @@
 git fetch upstream
 git checkout master
-git merge upstream/master
-git push 2>&1|grep "Everything up-to-date"
-if [ $? != 0 ]; then
+git merge -s ours upstream/master 2>&1|grep "Already up-to-date."
+RET=$?
+git push
+if [ $RET != 0 ]; then
 	make clean
 	autoreconf -f -i
 	./configure --disable-silent-rules
