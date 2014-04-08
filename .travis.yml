@@ -12,4 +12,3 @@ script:
  - make -j4
  - make -C tests check
  - /bin/bash ./run-file-tests.sh
-
