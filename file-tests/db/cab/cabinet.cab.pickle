@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Microsoft Cabinet archive data, 345055 bytes, 26 files\n'
+p2
+sS'mime'
+p3
+S'application/vnd.ms-cab-compressed; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.cab'
+p6
+sS'pattern'
+p7
+S'#msdos\n# Automatically generated from:\n#msdos:761\n0\tstring/b\tMSCF\\0\\0\\0\\0\tMicrosoft Cabinet archive data\n!:mime application/vnd.ms-cab-compressed\n>8\tlelong\t\tx\t\t\\b, %u bytes\n>28\tleshort\t\t1\t\t\\b, 1 file\n>28\tleshort\t\t>1\t\t\\b, %u files\n'
+p8
+s.

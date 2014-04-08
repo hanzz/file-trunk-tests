@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'MySQL replication log\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#sql\n# Automatically generated from:\n#sql:24\n0\tstring\t\t\t\\376bin\t\tMySQL replication log\n'
+p8
+s.

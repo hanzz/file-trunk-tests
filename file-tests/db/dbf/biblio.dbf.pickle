@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'FoxBase+/dBase III, with memo .DBT DBF, 92 records * 3727, update-date 06-12-5\n'
+p2
+sS'mime'
+p3
+S'application/x-dbf; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.dbf'
+p6
+sS'pattern'
+p7
+S'#database\n# Automatically generated from:\n#database:145\n0\tubelong&0x0000FFFF\t\t<0x00000C20\t\n>2\t\tubyte\t\t\t>0\t\t\n>>3\t\tubyte\t\t\t>0\t\t\n>>>3\t\tubyte\t\t\t<32\t\t\n>>>>0\t\tubyte\t\t\t>1\t\t\n>>>>>27\t\tubyte\t\t\t0\t\t\n>>>>>>24\tubelong&0xffFFFFff\t>0x01302000\t\n>>>>>>24\tubelong&0xffFFFFff\t<0x01302001\t\n>>>>>>>24\tubelong&0xffFFFFff\t=0\t\t\n>>>>>>>>12\tubelong&0xFFFFfEfE\t0\t\t\n>>>>>>>>>28\tubyte\t\t\tx\t\t\n>>>>>>>>>28\tubyte&0xf8\t\t0\t\t\n>>>>>>>>>>8\tuleshort\t\t>31\t\t\n>>>>>>>>>>>32\tubyte\t\t\t>0\t\t\n>>>>>>>>>>>>0\tuse\t\t\txbase-type\n>>>>>>>>>>>>0\tubyte\t\t\tx\t\t\\b DBF\n>>>>>>>>>>>>4\tlelong\t\t\t0\t\t\\b, no records\n>>>>>>>>>>>>4\tlelong\t\t\t>0\t\t\\b, %ld record\n>>>>>>>>>>>>>4\tlelong\t\t\t>1\t\t\\bs\n>>>>>>>>>>>>10\tuleshort\t\tx\t\t* %d\n>>>>>>>>>>>>1\tubyte\t\t\tx\t\t\\b, update-date\n>>>>>>>>>>>>1\tuse\t\t\txbase-date\n>>>>>>>>>>>>29\tubyte\t\t\t>0\t\t\\b, codepage ID=0x%x\n>>>>>>>>>>>>28\tubyte&0x01\t\t1\t\t\\b, with index file .MDX\n>>>>>>>>>>>>28\tubyte&0x02\t\t2\t\t\\b, with memo .FPT\n>>>>>>>>>>>>28\tubyte&0x04\t\t4\t\t\\b, DataBaseContainer\n>>>>>>>>>>>>8\tuleshort\t\t>0\t\t\n>>>>>>>>>>>>(8.s+1)\tubyte\t\t>0\t\t\n>>>>>>>>>>>>>8\t\tuleshort\t>0\t\t\\b, at offset %d\n>>>>>>>>>>>>>(8.s+1)\tubyte\t\t>0\t\t\n>>>>>>>>>>>>>>&-1\tstring\t\t>\\0\t\t1st record "%s"\n>>>>>>>24\tubelong&0x0133f7ff\t>0\t\t\n>>>>>>>>47\tubyte\t\t\tx\t\t\n>>>>>>>>>559\tubyte&0xeF\t\t0\t\t\n>>>>>>>>>45\tubeshort\t\t<0x0C20\t\t\n>>>>>>>>>>45\tubyte\t\t\t>0\t\t\n>>>>>>>>>>>46\tubyte\t\t\t<32\t\t\n>>>>>>>>>>>>46\tubyte\t\t\t>0\t\t\n>>>>>>>>>>>>>0\tuse\t\t\txbase-type\n>>>>>>>>>>>>>0\tubyte\t\t\tx\t\t\\b MDX\n>>>>>>>>>>>>>1\tubyte\t\t\tx\t\t\\b, creation-date\n>>>>>>>>>>>>>1\tuse\t\t\txbase-date\n>>>>>>>>>>>>>44\tubyte\t\t\tx\t\t\\b, update-date\n>>>>>>>>>>>>>44\tuse\t\t\txbase-date\n>>>>>>>>>>>>>28\tuleshort\t\tx\t\t\\b, %d\n>>>>>>>>>>>>>25\tubyte\t\t\tx\t\t\\b/%d tags\n>>>>>>>>>>>>>26\tubyte\t\t\tx\t\t* %d\n>>>>>>>>>>>>>548\tstring\t\tx\t\t\\b, 1st tag "%.11s"\n'
+p8
+s.

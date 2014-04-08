@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'new-fs dump file (big endian),  Previous dump Mon Sep 24 09:53:12 2012, This dump Thu Jan  1 01:00:00 1970, 1 Level zero, type: tape header, Label myext3fs, Filesystem /mnt/myext3fs, Device /dev/loop0, Host unknown.host.on.unknown.domain.com, Flags 3\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#dump\n# Automatically generated from:\n#dump:64\n24\tbelong\t60012\t\tnew-fs dump file (big endian), \n>0\tuse\tnew-dump-be\n'
+p8
+s.

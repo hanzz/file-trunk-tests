@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'VDI Image version 1.1 (<<< QEMU VM Virtual Disk Image >>>), 1024 bytes\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.img'
+p6
+sS'pattern'
+p7
+S'#msdos\n# Automatically generated from:\n#msdos:884\n64\tstring/b\t\\x7f\\x10\\xda\\xbe\tVDI Image\n>68\tstring/b\t\\x01\\x00\\x01\\x00\tversion 1.1\n>0\tstring\t\t>\\0\t\t\t(%s)\n>368\tlequad\t\tx\t\t\t \\b, %lld bytes\n'
+p8
+s.

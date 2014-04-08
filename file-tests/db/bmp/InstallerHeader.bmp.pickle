@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'PC bitmap, Windows 3.x format, 150 x 57 x 24\n'
+p2
+sS'mime'
+p3
+S'image/x-ms-bmp; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.bmp'
+p6
+sS'pattern'
+p7
+S'#images\n# Automatically generated from:\n#images:260\n0\tstring\t\tBM\n>14\tleshort\t\t12\t\tPC bitmap, OS/2 1.x format\n!:mime\timage/x-ms-bmp\n>>18\tleshort\t\tx\t\t\\b, %d x\n>>20\tleshort\t\tx\t\t%d\n>14\tleshort\t\t64\t\tPC bitmap, OS/2 2.x format\n!:mime\timage/x-ms-bmp\n>>18\tleshort\t\tx\t\t\\b, %d x\n>>20\tleshort\t\tx\t\t%d\n>14\tleshort\t\t40\t\tPC bitmap, Windows 3.x format\n!:mime\timage/x-ms-bmp\n>>18\tlelong\t\tx\t\t\\b, %d x\n>>22\tlelong\t\tx\t\t%d x\n>>28\tleshort\t\tx\t\t%d\n>14\tleshort\t\t124\t\tPC bitmap, Windows 98/2000 and newer format\n!:mime\timage/x-ms-bmp\n>>18\tlelong\t\tx\t\t\\b, %d x\n>>22\tlelong\t\tx\t\t%d x\n>>28\tleshort\t\tx\t\t%d\n>14\tleshort\t\t108\t\tPC bitmap, Windows 95/NT4 and newer format\n!:mime\timage/x-ms-bmp\n>>18\tlelong\t\tx\t\t\\b, %d x\n>>22\tlelong\t\tx\t\t%d x\n>>28\tleshort\t\tx\t\t%d\n>14\tleshort\t\t128\t\tPC bitmap, Windows NT/2000 format\n!:mime\timage/x-ms-bmp\n>>18\tlelong\t\tx\t\t\\b, %d x\n>>22\tlelong\t\tx\t\t%d x\n>>28\tleshort\t\tx\t\t%d\n'
+p8
+s.

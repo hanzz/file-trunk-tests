@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'DOS executable (COM)\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.com'
+p6
+sS'pattern'
+p7
+S'#msdos\n# Automatically generated from:\n#msdos:322\n0\tbyte\t\t0xe9\t\tDOS executable (COM)\n>0x1FE leshort\t\t0xAA55\t\t\\b, boot code\n>6\tstring\t\tSFX\\ of\\ LHarc\t(%s)\n'
+p8
+s.

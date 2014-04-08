@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'python 2.7 byte-compiled\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.pyc'
+p6
+sS'pattern'
+p7
+S'#python\n# Automatically generated from:\n#python:20\n0\tbelong\t\t0x03f30d0a\tpython 2.7 byte-compiled\n'
+p8
+s.

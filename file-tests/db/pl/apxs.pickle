@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'a /usr/bin/perl -w script, ASCII text executable\n'
+p2
+sS'mime'
+p3
+S'text/plain; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#varied.script\n# Automatically generated from:\n#varied.script:20\n0\tstring/t\t\t#!/\t\t\ta\n>2\tstring\t\t>\\0\t\t\t%s script text executable\n!:strength / 2\n'
+p8
+s.

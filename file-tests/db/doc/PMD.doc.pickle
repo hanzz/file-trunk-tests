@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Composite Document File V2 Document, Little Endian, Os: Windows, Version 5.1, Code page: 1252, Title: \\250, Author: Bekrar, Template: Normal.dot, Last Saved By: Bekrar, Revision Number: 2, Name of Creating Application: Microsoft Office Word, Total Editing Time: 01:00, Create Time/Date: Tue Aug 16 10:51:00 2005, Last Saved Time/Date: Tue Aug 16 11:02:00 2005, Number of Pages: 2, Number of Words: 646, Number of Characters: 3555, Security: 0\n'
+p2
+sS'mime'
+p3
+S'application/msword; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.doc'
+p6
+sS'pattern'
+p7
+S'#cafebabe\n# Automatically generated from:\n#cafebabe:45\n0\tname\t\tmach-o\t\t\\b [\n>0\tuse\t\tmach-o-cpu\t\\b\n>&(8.L)\tindirect\t\t\t\\b: \n>0\tbelong\t\tx\t\t\\b]\n'
+p8
+s.

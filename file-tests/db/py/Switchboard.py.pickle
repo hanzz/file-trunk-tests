@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Python script, ASCII text executable\n'
+p2
+sS'mime'
+p3
+S'text/x-python; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.py'
+p6
+sS'pattern'
+p7
+S'#python\n# Automatically generated from:\n#python:37\n0\tregex\t\\^from\\\\s+(\\\\w|\\\\.)+\\\\s+import.*$\tPython script text executable\n!:mime text/x-python\n'
+p8
+s.

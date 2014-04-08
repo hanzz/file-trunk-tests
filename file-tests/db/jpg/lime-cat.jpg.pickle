@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'JPEG image data, JFIF standard 1.02\n'
+p2
+sS'mime'
+p3
+S'image/jpeg; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.jpg'
+p6
+sS'pattern'
+p7
+S'#jpeg\n# Automatically generated from:\n#jpeg:11\n0\tbeshort\t\t0xffd8\t\tJPEG image data\n!:mime\timage/jpeg\n!:apple\t8BIMJPEG\n!:strength +2\n>6\tstring\t\tJFIF\t\t\\b, JFIF standard\n>>11\tbyte\t\tx\t\t\\b %d.\n>>12\tbyte\t\tx\t\t\\b%02d\n>>18\tbyte\t\t!0\t\t\\b, thumbnail %dx\n>>>19\tbyte\t\tx\t\t\\b%d\n>6\tstring\t\tExif\t\t\\b, EXIF standard\n>>12\tstring\t\tII\t\t\n>>>70\tleshort\t\t0x8769          \n>>>>(78.l+14)\tleshort\t0x9000\t\t\n>>>>>(78.l+23)\tbyte\tx\t\t%c\n>>>>>(78.l+24)\tbyte\tx\t\t\\b.%c\n>>>>>(78.l+25)\tbyte\t!0x30\t\t\\b%c\n>>>118\tleshort\t\t0x8769          \n>>>>(126.l+38)\tleshort\t0x9000\t\t\n>>>>>(126.l+47)\tbyte\tx\t\t%c\n>>>>>(126.l+48)\tbyte\tx\t\t\\b.%c\n>>>>>(126.l+49)\tbyte\t!0x30\t\t\\b%c\n>>>130\tleshort\t\t0x8769          \n>>>>(138.l+38)\tleshort\t0x9000\t\t\n>>>>>(138.l+47)\tbyte\tx\t\t%c\n>>>>>(138.l+48)\tbyte\tx\t\t\\b.%c\n>>>>>(138.l+49)\tbyte\t!0x30\t\t\\b%c\n>>>>(138.l+50)\tleshort\t0x9000\t\t\n>>>>>(138.l+59)\tbyte\tx\t\t%c\n>>>>>(138.l+60)\tbyte\tx\t\t\\b.%c\n>>>>>(138.l+61)\tbyte\t!0x30\t\t\\b%c\n>>>>(138.l+62)\tleshort\t0x9000\t\t\n>>>>>(138.l+71)\tbyte\tx\t\t%c\n>>>>>(138.l+72)\tbyte\tx\t\t\\b.%c\n>>>>>(138.l+73)\tbyte\t!0x30\t\t\\b%c\n>>>142\tleshort\t\t0x8769          \n>>>>(150.l+38)\tleshort\t0x9000\t\t\n>>>>>(150.l+47)\tbyte\tx\t\t%c\n>>>>>(150.l+48)\tbyte\tx\t\t\\b.%c\n>>>>>(150.l+49)\tbyte\t!0x30\t\t\\b%c\n>>>>(150.l+50)\tleshort\t0x9000\t\t\n>>>>>(150.l+59)\tbyte\tx\t\t%c\n>>>>>(150.l+60)\tbyte\tx\t\t\\b.%c\n>>>>>(150.l+61)\tbyte\t!0x30\t\t\\b%c\n>>>>(150.l+62)\tleshort\t0x9000\t\t\n>>>>>(150.l+71)\tbyte\tx\t\t%c\n>>>>>(150.l+72)\tbyte\tx\t\t\\b.%c\n>>>>>(150.l+73)\tbyte\t!0x30\t\t\\b%c\n>>12\tstring\t\tMM\t\t\n>>>118\tbeshort\t\t0x8769          \n>>>>(126.L+14)\tbeshort\t0x9000\t\t\n>>>>>(126.L+23)\tbyte\tx\t\t%c\n>>>>>(126.L+24)\tbyte\tx\t\t\\b.%c\n>>>>>(126.L+25)\tbyte\t!0x30\t\t\\b%c\n>>>>(126.L+38)\tbeshort\t0x9000\t\t\n>>>>>(126.L+47)\tbyte\tx\t\t%c\n>>>>>(126.L+48)\tbyte\tx\t\t\\b.%c\n>>>>>(126.L+49)\tbyte\t!0x30\t\t\\b%c\n>>>130\tbeshort\t\t0x8769          \n>>>>(138.L+38)\tbeshort\t0x9000\t\t\n>>>>>(138.L+47)\tbyte\tx\t\t%c\n>>>>>(138.L+48)\tbyte\tx\t\t\\b.%c\n>>>>>(138.L+49)\tbyte\t!0x30\t\t\\b%c\n>>>>(138.L+62)\tbeshort\t0x9000\t\t\n>>>>>(138.L+71)\tbyte\tx\t\t%c\n>>>>>(138.L+72)\tbyte\tx\t\t\\b.%c\n>>>>>(138.L+73)\tbyte\t!0x30\t\t\\b%c\n>>>142\tbeshort\t\t0x8769          \n>>>>(150.L+50)\tbeshort\t0x9000\t\t\n>>>>>(150.L+59)\tbyte\tx\t\t%c\n>>>>>(150.L+60)\tbyte\tx\t\t\\b.%c\n>>>>>(150.L+61)\tbyte\t!0x30\t\t\\b%c\n>(4.S+5)\tbyte\t\t0xFE\t\t\\b, comment:\n>>(4.S+6)\tpstring/HJ\tx\t\t"%s"\n>(4.S+5)\tbyte\t\t0xC0\t\t\\b, baseline\n>>(4.S+6)\tbyte\t\tx\t\t\\b, precision %d\n>>(4.S+7)\tbeshort\t\tx\t\t\\b, %dx\n>>(4.S+9)\tbeshort\t\tx\t\t\\b%d\n>(4.S+5)\tbyte\t\t0xC1\t\t\\b, extended sequential\n>>(4.S+6)\tbyte\t\tx\t\t\\b, precision %d\n>>(4.S+7)\tbeshort\t\tx\t\t\\b, %dx\n>>(4.S+9)\tbeshort\t\tx\t\t\\b%d\n>(4.S+5)\tbyte\t\t0xC2\t\t\\b, progressive\n>>(4.S+6)\tbyte\t\tx\t\t\\b, precision %d\n>>(4.S+7)\tbeshort\t\tx\t\t\\b, %dx\n>>(4.S+9)\tbeshort\t\tx\t\t\\b%d\n'
+p8
+s.
