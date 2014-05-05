@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'timezone data, version 2, 6 gmt time flags, 6 std time flags, no leap seconds, 141 transition times, 6 abbreviation chars\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#timezone\n# Automatically generated from:\n#timezone:8\n0\tstring\tTZif\ttimezone data\n>4\tbyte\t0\t\\b, old version\n>4\tbyte\t>0\t\\b, version %c\n>20\tbelong\t0\t\\b, no gmt time flags\n>20\tbelong\t1\t\\b, 1 gmt time flag\n>20\tbelong\t>1\t\\b, %d gmt time flags\n>24\tbelong\t0\t\\b, no std time flags\n>20\tbelong\t1\t\\b, 1 std time flag\n>24\tbelong\t>1\t\\b, %d std time flags\n>28\tbelong\t0\t\\b, no leap seconds\n>28\tbelong\t1\t\\b, 1 leap second\n>28\tbelong  >1\t\\b, %d leap seconds\n>32\tbelong\t0\t\\b, no transition times\n>32\tbelong\t1\t\\b, 1 transition time\n>32\tbelong  >1\t\\b, %d transition times\n>36\tbelong\t0\t\\b, no abbreviation chars\n>36\tbelong\t1\t\\b, 1 abbreviation char\n>36\tbelong\t>1\t\\b, %d abbreviation chars\n'
+p8
+s.

@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Delta ISO data version 2\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.diso'
+p6
+sS'pattern'
+p7
+S'#filesystems\n# Automatically generated from:\n#filesystems:2143\n0\tstring  DISO\tDelta ISO data\n>4\tbelong  x\tversion %d\n'
+p8
+s.

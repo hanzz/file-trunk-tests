@@ -1,15 +1,15 @@
 (dp0
 S'output'
 p1
-S'RIFF (little-endian) data, animated cursor\n'
+S'RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 22050 Hz\n'
 p2
 sS'mime'
 p3
-S'application/octet-stream; charset=binary\n'
+S'audio/x-wav; charset=binary\n'
 p4
 sS'suffix'
 p5
-S'.ani'
+S'.wav'
 p6
 sS'pattern'
 p7

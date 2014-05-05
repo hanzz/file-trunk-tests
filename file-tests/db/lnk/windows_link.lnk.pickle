@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'MS Windows shortcut, Item id list present, Points to a file or directory, Has Relative path, Directory, ctime=Fri Feb 17 15:01:13 2012, mtime=Tue Mar 11 12:55:57 2014, atime=Tue Mar 11 12:55:57 2014, length=4096, window=hide\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.lnk'
+p6
+sS'pattern'
+p7
+S'#windows\n# Automatically generated from:\n#windows:83\n0\tstring\t\t\\114\\0\\0\\0\\001\\024\\002\\0\\0\\0\\0\\0\\300\\0\\0\\0\\0\\0\\0\\106\tMS Windows shortcut\n>20\tlelong&1\t1\t\\b, Item id list present\n>20\tlelong&2\t2\t\\b, Points to a file or directory\n>20\tlelong&4\t4\t\\b, Has Description string\n>20\tlelong&8\t8\t\\b, Has Relative path\n>20\tlelong&16\t16\t\\b, Has Working directory\n>20\tlelong&32\t32\t\\b, Has command line arguments\n>20\tlelong&64\t64\t\\b, Icon\n>>56\tlelong\t\t\t\\b number=%d\n>24\tlelong&1\t1\t\\b, Read-Only\n>24\tlelong&2\t2\t\\b, Hidden\n>24\tlelong&4\t4\t\\b, System\n>24\tlelong&8\t8\t\\b, Volume Label\n>24\tlelong&16\t16\t\\b, Directory\n>24\tlelong&32\t32\t\\b, Archive\n>24\tlelong&64\t64\t\\b, Encrypted\n>24\tlelong&128\t128\t\\b, Normal\n>24\tlelong&256\t256\t\\b, Temporary\n>24\tlelong&512\t512\t\\b, Sparse\n>24\tlelong&1024\t1024\t\\b, Reparse point\n>24\tlelong&2048\t2048\t\\b, Compressed\n>24\tlelong&4096\t4096\t\\b, Offline\n>28\tleqwdate\tx\t\\b, ctime=%s\n>36\tleqwdate\tx\t\\b, mtime=%s\n>44\tleqwdate\tx\t\\b, atime=%s\n>52\tlelong\t\tx\t\\b, length=%u, window=\n>60\tlelong&1\t1\t\\bhide\n>60\tlelong&2\t2\t\\bnormal\n>60\tlelong&4\t4\t\\bshowminimized\n>60\tlelong&8\t8\t\\bshowmaximized\n>60\tlelong&16\t16\t\\bshownoactivate\n>60\tlelong&32\t32\t\\bminimize\n>60\tlelong&64\t64\t\\bshowminnoactive\n>60\tlelong&128\t128\t\\bshowna\n>60\tlelong&256\t256\t\\brestore\n>60\tlelong&512\t512\t\\bshowdefault\n'
+p8
+s.
