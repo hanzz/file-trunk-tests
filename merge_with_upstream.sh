@@ -5,6 +5,8 @@ RET=$?
 git diff -R upstream/master src/ magic/ > x.patch
 patch -p1 < x.patch
 git commit -a -m 'merge with upstream'
+
+grep diff x.patch
 RET2=$?
 if [ $RET != 0 -o RET2 == 0 ]; then
 	git push
