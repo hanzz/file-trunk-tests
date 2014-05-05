@@ -12,7 +12,7 @@ if [ $RET == 0 ]; then
 
 	cd file-tests
 	rm -rf .mgc_temp
-	rm -rf .Magdir
+	rm -rf ./Magdir
 	cp -R ../magic/Magdir .
 	git rm db/*/*.pickle
 	LD_LIBRARY_PATH=. python ./update-db.py file-trunk Magdir ./lt-file
