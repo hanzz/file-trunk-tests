@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'DOS/MBR boot sector\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#filesystems\n# Automatically generated from:\n#filesystems:253\n30\t\tsearch/481\t\\x55\\xAA\t\n!:strength +72\n>11\t\tuleshort\t<512\t\t\n>>(11.s-2)\tuleshort\t0xAA55\t\tDOS/MBR boot sector\n>0x1FE\t\tleshort\t\t0xAA55\t\tDOS/MBR boot sector\n'
+p8
+s.

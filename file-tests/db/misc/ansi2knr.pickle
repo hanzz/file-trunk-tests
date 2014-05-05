@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'troff or preprocessor input, ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/troff; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#troff\n# Automatically generated from:\n#troff:18\n0\tregex/20\t\\^\\\\.[A-Za-z0-9][A-Za-z0-9][\\ \\t]\ttroff or preprocessor input text\n!:mime\ttext/troff\n'
+p8
+s.

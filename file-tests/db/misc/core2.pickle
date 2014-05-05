@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S"ELF 32-bit MSB core file SPARC, version 1 (SYSV), SVR4-style, from '/oesdba/product/hyperroll/bin/hyperroll'\n"
+p2
+sS'mime'
+p3
+S'application/x-coredump; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#elf\n# Automatically generated from:\n#elf:278\n0\tstring\t\t\\177ELF\t\tELF\n!:strength *2\n>4\tbyte\t\t0\t\tinvalid class\n>4\tbyte\t\t1\t\t32-bit\n>4\tbyte\t\t2\t\t64-bit\n>5\tbyte\t\t0\t\tinvalid byte order\n>5\tbyte\t\t1\t\tLSB\n>>0\tuse\t\telf-le\n>5\tbyte\t\t2\t\tMSB\n>>0\tuse\t\t\\^elf-le\n>4      byte            <0x80\n>>8\tstring\t\t>\\0\t\t(%s)\n>8\tstring\t\t\\0\n>>7\tbyte\t\t0\t\t(SYSV)\n>>7\tbyte\t\t1\t\t(HP-UX)\n>>7\tbyte\t\t2\t\t(NetBSD)\n>>7\tbyte\t\t3\t\t(GNU/Linux)\n>>7\tbyte\t\t4\t\t(GNU/Hurd)\n>>7\tbyte\t\t5\t\t(86Open)\n>>7\tbyte\t\t6\t\t(Solaris)\n>>7\tbyte\t\t7\t\t(Monterey)\n>>7\tbyte\t\t8\t\t(IRIX)\n>>7\tbyte\t\t9\t\t(FreeBSD)\n>>7\tbyte\t\t10\t\t(Tru64)\n>>7\tbyte\t\t11\t\t(Novell Modesto)\n>>7\tbyte\t\t12\t\t(OpenBSD)\n>8      string          \\2\n>>7     byte            13              (OpenVMS)\n>>7\tbyte\t\t97\t\t(ARM)\n>>7\tbyte\t\t255\t\t(embedded)\n'
+p8
+s.

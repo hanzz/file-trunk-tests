@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Perl5 module source, ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/plain; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.pm'
+p6
+sS'pattern'
+p7
+S'#perl\n# Automatically generated from:\n#perl:25\n0\tsearch/1\tpackage\n>0\tregex\t\t\\^package[\\ \\t]+[0-9A-Za-z_:]+\\ *;\tPerl5 module source text\n!:strength + 10\n'
+p8
+s.

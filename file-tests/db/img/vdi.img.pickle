@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'VirtualBox Disk Image, major 1, minor 1\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.img'
+p6
+sS'pattern'
+p7
+S'#virtual\n# Automatically generated from:\n#virtual:14\n0x40\tulelong\t\t0xbeda107f\tVirtualBox Disk Image\n>0x44\tuleshort\t>0\t\t\\b, major %u\n>0x46\tuleshort\t>0\t\t\\b, minor %u\n'
+p8
+s.

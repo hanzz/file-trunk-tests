@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Debian binary package (format 2.0)\n'
+p2
+sS'mime'
+p3
+S'application/x-debian-package; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.deb'
+p6
+sS'pattern'
+p7
+S'#archive\n# Automatically generated from:\n#archive:93\n0\tstring\t\t=!<arch>\\ndebian\n>8\tstring\t\tdebian-split\tpart of multipart Debian package\n!:mime\tapplication/x-debian-package\n>8\tstring\t\tdebian-binary\tDebian binary package\n!:mime\tapplication/x-debian-package\n>8\tstring\t\t!debian\n>68\tstring\t\t>\\0\t\t(format %s)\n'
+p8
+s.

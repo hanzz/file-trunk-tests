@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'gzip compressed data, last modified: Thu Feb 14 04:01:37 2008, from Unix\n'
+p2
+sS'mime'
+p3
+S'application/x-gzip; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.tgz'
+p6
+sS'pattern'
+p7
+S'#compress\n# Automatically generated from:\n#compress:22\n0       string          \\037\\213        gzip compressed data\n!:mime\tapplication/x-gzip\n!:strength * 2\n>2\tbyte\t\t<8\t\t\\b, reserved method\n>2\tbyte\t\t>8\t\t\\b, unknown method\n>3\tbyte\t\t&0x01\t\t\\b, ASCII\n>3\tbyte\t\t&0x02\t\t\\b, has CRC\n>3\tbyte\t\t&0x04\t\t\\b, extra field\n>3\tbyte&0xC\t=0x08\n>>10\tstring\t\tx\t\t\\b, was "%s"\n>3\tbyte\t\t&0x10\t\t\\b, has comment\n>3\tbyte\t\t&0x20\t\t\\b, encrypted\n>4\tledate\t\t>0\t\t\\b, last modified: %s\n>8\tbyte\t\t2\t\t\\b, max compression\n>8\tbyte\t\t4\t\t\\b, max speed\n>9\tbyte\t\t=0x00\t\t\\b, from FAT filesystem (MS-DOS, OS/2, NT)\n>9\tbyte\t\t=0x01\t\t\\b, from Amiga\n>9\tbyte\t\t=0x02\t\t\\b, from VMS\n>9\tbyte\t\t=0x03\t\t\\b, from Unix\n>9\tbyte\t\t=0x04\t\t\\b, from VM/CMS\n>9\tbyte\t\t=0x05\t\t\\b, from Atari\n>9\tbyte\t\t=0x06\t\t\\b, from HPFS filesystem (OS/2, NT)\n>9\tbyte\t\t=0x07\t\t\\b, from MacOS\n>9\tbyte\t\t=0x08\t\t\\b, from Z-System\n>9\tbyte\t\t=0x09\t\t\\b, from CP/M\n>9\tbyte\t\t=0x0A\t\t\\b, from TOPS/20\n>9\tbyte\t\t=0x0B\t\t\\b, from NTFS filesystem (NT)\n>9\tbyte\t\t=0x0C\t\t\\b, from QDOS\n>9\tbyte\t\t=0x0D\t\t\\b, from Acorn RISCOS\n'
+p8
+s.

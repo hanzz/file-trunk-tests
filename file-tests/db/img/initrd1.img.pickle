@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'LZMA compressed data, streamed\n'
+p2
+sS'mime'
+p3
+S'application/x-lzma; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.img'
+p6
+sS'pattern'
+p7
+S'#compress\n# Automatically generated from:\n#compress:192\n0\tlelong&0xffffff\t=0x5d\n>12\tleshort\t\t0xff\t\t\tLZMA compressed data,\n!:mime\tapplication/x-lzma\n>>5\tlequad\t\t=0xffffffffffffffff\tstreamed\n>>5\tlequad\t\t!0xffffffffffffffff\tnon-streamed, size %lld\n>12\tleshort\t\t0\t\t\tLZMA compressed data,\n>>5\tlequad\t\t=0xffffffffffffffff\tstreamed\n>>5\tlequad\t\t!0xffffffffffffffff\tnon-streamed, size %lld\n'
+p8
+s.

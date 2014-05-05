@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'MySQL MyISAM index file Version 1\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.MYI'
+p6
+sS'pattern'
+p7
+S'#sql\n# Automatically generated from:\n#sql:12\n0\tbelong&0xffffff00\t0xfefe0700\tMySQL MyISAM index file\n>3\tbyte\t\t\tx\t\tVersion %d\n'
+p8
+s.

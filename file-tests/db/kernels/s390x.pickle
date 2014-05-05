@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Linux S390 Z9-109 64bit kernel\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#linux\n# Automatically generated from:\n#linux:180\n8 string \\x02\\x00\\x00\\x18\\x60\\x00\\x00\\x50\\x02\\x00\\x00\\x68\\x60\\x00\\x00\\x50\\x40\\x40\\x40\\x40\\x40\\x40\\x40\\x40 Linux S390\n>0x00010000 search/b/4096 \\x00\\x0a\\x00\\x00\\x8b\\xad\\xcc\\xcc\n>>&0 string \\xc1\\x00\\xef\\xe3\\xf0\\x68\\x00\\x00 Z10 64bit kernel\n>>&0 string \\xc1\\x00\\xef\\xc3\\x00\\x00\\x00\\x00 Z9-109 64bit kernel\n>>&0 string \\xc0\\x00\\x20\\x00\\x00\\x00\\x00\\x00 Z990 64bit kernel\n>>&0 string \\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00 Z900 64bit kernel\n>>&0 string \\x81\\x00\\xc8\\x80\\x00\\x00\\x00\\x00 Z10 32bit kernel\n>>&0 string \\x81\\x00\\xc8\\x80\\x00\\x00\\x00\\x00 Z9-109 32bit kernel\n>>&0 string \\x80\\x00\\x20\\x00\\x00\\x00\\x00\\x00 Z990 32bit kernel\n>>&0 string \\x80\\x00\\x00\\x00\\x00\\x00\\x00\\x00 Z900 32bit kernel\n'
+p8
+s.
