@@ -32,7 +32,7 @@
 #include "file.h"
 
 #ifndef	lint
-FILE_RCSID("@(#)$File: apprentice.c,v 1.202 2014/03/14 18:48:11 christos Exp $")
+FILE_RCSID("@(#)$File: apprentice.c,v 1.206 2014/04/30 21:41:02 christos Exp $")
 #endif	/* lint */
 
 #include "magic.h"
@@ -1749,7 +1749,7 @@ parse(struct magic_set *ms, struct magic_entry *me, const char *line,
 			 */
 			m->type = get_standard_integer_type(l, &l);
 		}
-		// It's unsigned.
+		/* It's unsigned. */
 		if (m->type != FILE_INVALID)
 			m->flag |= UNSIGNED;
 	} else {
@@ -2133,17 +2133,41 @@ parse_mime(struct magic_set *ms, struct magic_entry *me, const char *line)
 private int
 check_format_type(const char *ptr, int type)
 {
-	int quad = 0;
+	int quad = 0, h;
 	if (*ptr == '\0') {
 		/* Missing format string; bad */
 		return -1;
 	}
 
-	switch (type) {
+	switch (file_formats[type]) {
 	case FILE_FMT_QUAD:
 		quad = 1;
 		/*FALLTHROUGH*/
 	case FILE_FMT_NUM:
+		if (quad == 0) {
+			switch (type) {
+			case FILE_BYTE:
+				h = 2;
+				break;
+			case FILE_SHORT:
+			case FILE_BESHORT:
+			case FILE_LESHORT:
+				h = 1;
+				break;
+			case FILE_LONG:
+			case FILE_BELONG:
+			case FILE_LELONG:
+			case FILE_MELONG:
+			case FILE_LEID3:
+			case FILE_BEID3:
+			case FILE_INDIRECT:
+				h = 0;
+				break;
+			default:
+				abort();
+			}
+		} else
+			h = 0;
 		if (*ptr == '-')
 			ptr++;
 		if (*ptr == '.')
@@ -2160,6 +2184,8 @@ check_format_type(const char *ptr, int type)
 		}
 	
 		switch (*ptr++) {
+#ifdef STRICT_FORMAT 	/* "long" formats are int formats for us */
+		/* so don't accept the 'l' modifier */
 		case 'l':
 			switch (*ptr++) {
 			case 'i':
@@ -2168,14 +2194,22 @@ check_format_type(const char *ptr, int type)
 			case 'o':
 			case 'x':
 			case 'X':
-				return 0;
+				return h != 0 ? -1 : 0;
 			default:
 				return -1;
 			}
 		
+		/*
+		 * Don't accept h and hh modifiers. They make writing
+		 * magic entries more complicated, for very little benefit
+		 */
 		case 'h':
+			if (h-- <= 0)
+				return -1;
 			switch (*ptr++) {
 			case 'h':
+				if (h-- <= 0)
+					return -1;
 				switch (*ptr++) {
 				case 'i':
 				case 'd':
@@ -2187,21 +2221,30 @@ check_format_type(const char *ptr, int type)
 				default:
 					return -1;
 				}
+			case 'i':
 			case 'd':
-				return 0;
+			case 'u':
+			case 'o':
+			case 'x':
+			case 'X':
+				return h != 0 ? -1 : 0;
 			default:
 				return -1;
 			}
-
-		case 'i':
+#endif
 		case 'c':
+			return h != 2 ? -1 : 0;
+		case 'i':
 		case 'd':
 		case 'u':
 		case 'o':
 		case 'x':
 		case 'X':
+#ifdef STRICT_FORMAT
+			return h != 0 ? -1 : 0;
+#else
 			return 0;
-			
+#endif
 		default:
 			return -1;
 		}
@@ -2288,7 +2331,7 @@ check_format(struct magic_set *ms, struct magic *m)
 	}
 
 	ptr++;
-	if (check_format_type(ptr, file_formats[m->type]) == -1) {
+	if (check_format_type(ptr, m->type) == -1) {
 		/*
 		 * TODO: this error message is unhelpful if the format
 		 * string is not one character long
@@ -2750,10 +2793,6 @@ error:
 	return NULL;
 }
 
-private const uint32_t ar[] = {
-    MAGICNO, VERSIONNO
-};
-
 /*
  * handle an mmaped file.
  */
@@ -2767,6 +2806,10 @@ apprentice_compile(struct magic_set *ms, struct magic_map *map, const char *fn)
 	char *dbname;
 	int rv = -1;
 	uint32_t i;
+	union {
+		struct magic m;
+		uint32_t h[2 + MAGIC_SETS];
+	} hdr;
 
 	dbname = mkdbname(ms, fn, 1);
 
@@ -2778,21 +2821,13 @@ apprentice_compile(struct magic_set *ms, struct magic_map *map, const char *fn)
 		file_error(ms, errno, "cannot open `%s'", dbname);
 		goto out;
 	}
+	memset(&hdr, 0, sizeof(hdr));
+	hdr.h[0] = MAGICNO;
+	hdr.h[1] = VERSIONNO;
+	memcpy(hdr.h + 2, map->nmagic, nm);
 
-	if (write(fd, ar, sizeof(ar)) != (ssize_t)sizeof(ar)) {
+	if (write(fd, &hdr, sizeof(hdr)) != (ssize_t)sizeof(hdr)) {
 		file_error(ms, errno, "error writing `%s'", dbname);
-		goto out;
-	}
-
-	if (write(fd, map->nmagic, nm) != (ssize_t)nm) {
-		file_error(ms, errno, "error writing `%s'", dbname);
-		goto out;
-	}
-
-	assert(nm + sizeof(ar) < m);
-
-	if (lseek(fd, (off_t)m, SEEK_SET) != (off_t)m) {
-		file_error(ms, errno, "error seeking `%s'", dbname);
 		goto out;
 	}
 

@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: sql,v 1.12 2013/08/26 15:45:29 christos Exp $
+# $File: sql,v 1.14 2014/04/28 12:04:50 christos Exp $
 # sql:  file(1) magic for SQL files
 #
 # From: "Marty Leisner" <mleisner@eng.mc.xerox.com>
@@ -69,7 +69,7 @@
 # SQLite Write-Ahead Log from SQLite version >= 3.7.0
 # http://www.sqlite.org/fileformat.html#walformat
 0	belong&0xfffffffe	0x377f0682	SQLite Write-Ahead Log,
->4	belong	x	version %ld
+>4	belong	x	version %d
 
 # SQLite Rollback Journal
 # http://www.sqlite.org/fileformat.html#rollbackjournal

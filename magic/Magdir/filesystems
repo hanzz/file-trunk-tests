@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# $File: filesystems,v 1.86 2014/02/25 20:28:16 christos Exp $
+# $File: filesystems,v 1.88 2014/04/28 12:04:50 christos Exp $
 # filesystems:  file(1) magic for different filesystems
 #
 0	name	partid  
@@ -204,8 +204,8 @@
 >>0752	short		>0		%d alt cyls,
 >>0754	short		>0		%d heads/partition,
 >>0756	short		>0		%d sectors/track,
->>0764	long		>0		start cyl %ld,
->>0770	long		x		%ld blocks
+>>0764	long		>0		start cyl %d,
+>>0770	long		x		%d blocks
 # Is there a boot block written 1 sector in?
 >512    belong&077777777	0600407	\b, boot block present
 
@@ -1330,7 +1330,7 @@
 #>>>(0x1BC.s+11)		ubyte		x			\b,cfg_def 0x%x
 # for older versions
 >>>(0x1BC.s+9)		ubyte		<2			
-#>>>>(0x1BC.s+12)	ubyte		18			\b,%u/18 seconds
+#>>>>(0x1BC.s+12)	ubyte		18			\b,%hhu/18 seconds
 >>>>(0x1BC.s+12)	ubyte		!18			\b,%u/18 seconds
 # floppy A: or B:
 >>>>(0x1BC.s+13)	ubyte		<2			\b,floppy 0x%x
@@ -1373,7 +1373,7 @@
 >>>>0x207	ubyte		x		\b.%u
 # module_size for 1.94
 >>>>0x208	ulelong		<0xffffff	\b, installed partition %u
-#>>>>0x208	ulelong		=0xffffff	\b, %u (default)
+#>>>>0x208	ulelong		=0xffffff	\b, %lu (default)
 >>>>0x208	ulelong		>0xffffff	\b, installed partition %u
 # GRUB 0.5.95 unofficial
 >>>>0x20C	ulelong&0x2E300000 0x2E300000	
@@ -1447,14 +1447,14 @@
 >>>>>16		ubyte		=1		\b, FAT  %u
 >>>>>16		ubyte		>0
 >>>>>17		uleshort	>0		\b, root entries %u
-#>>>>>17	uleshort	=0		\b, root entries %u=0 (usual Fat32)
+#>>>>>17	uleshort	=0		\b, root entries %hu=0 (usual Fat32)
 >>>>>19		uleshort	>0		\b, sectors %u (volumes <=32 MB) 
-#>>>>>19	uleshort	=0		\b, sectors %u=0 (usual Fat32)
+#>>>>>19	uleshort	=0		\b, sectors %hu=0 (usual Fat32)
 >>>>>21		ubyte		>0xF0		\b, Media descriptor 0x%x
 #>>>>>21	ubyte		=0xF0		\b, Media descriptor 0x%x (usual floppy)
 >>>>>21		ubyte		<0xF0		\b, Media descriptor 0x%x
 >>>>>22		uleshort	>0		\b, sectors/FAT %u
-#>>>>>22	uleshort	=0		\b, sectors/FAT %u=0 (usual Fat32)
+#>>>>>22	uleshort	=0		\b, sectors/FAT %hu=0 (usual Fat32)
 >>>>>24		uleshort	x		\b, sectors/track %u
 >>>>>26		ubyte		>2		\b, heads %u
 #>>>>>26	ubyte		=2		\b, heads %u (usual floppy)
@@ -1496,7 +1496,7 @@
 >>>>>>36	ulelong		x		\b, sectors/FAT %u
 # http://technet.microsoft.com/en-us/library/cc977221.aspx
 >>>>>>40	uleshort	>0		\b, extension flags 0x%x
-#>>>>>>40	uleshort	=0		\b, extension flags %u
+#>>>>>>40	uleshort	=0		\b, extension flags %hu
 >>>>>>42	uleshort	>0		\b, fsVersion %u
 #>>>>>>42	uleshort	=0		\b, fsVersion %u (usual)
 >>>>>>44	ulelong		>2		\b, rootdir cluster %u
@@ -1555,13 +1555,13 @@
 # Values 128 to 255 represent MFT record sizes of 2^(256-N) bytes. 
 >>>>>>>>>64	lelong		<256		
 >>>>>>>>>>64	lelong		<128		\b, clusters/RecordSegment %d
->>>>>>>>>>64	ubyte		>127		\b, bytes/RecordSegment 2^(-1*%hhi)
+>>>>>>>>>>64	ubyte		>127		\b, bytes/RecordSegment 2^(-1*%i)
 # Values 0 to 127 represent index block sizes of 0 to 127 clusters.
 # Values 128 to 255 represent index block sizes of 2^(256-N) byte
 >>>>>>>>>68	ulelong		<256		
 >>>>>>>>>>68	ulelong		<128		\b, clusters/index block %d
 #>>>>>>>>>>68	ulelong		>127		\b, bytes/index block 2^(256-%d)
->>>>>>>>>>68	ubyte		>127		\b, bytes/index block 2^(-1*%hhi)
+>>>>>>>>>>68	ubyte		>127		\b, bytes/index block 2^(-1*%i)
 >>>>>>>>>72	ulequad		x		\b, serial number 0%llx
 >>>>>>>>>80	ulelong		>0		\b, checksum 0x%x
 #>>>>>>>>>80	ulelong		=0		\b, checksum 0x%x=0 (usual)
@@ -1609,7 +1609,7 @@
 >&-180	lelong		x		average file size %d,
 >&-176	lelong		x		average number of files in dir %d,
 >&-272	lequad		x		pending blocks to free %lld,
->&-264	lelong		x		pending inodes to free %ld,
+>&-264	lelong		x		pending inodes to free %d,
 >&-664	lequad		x		system-wide uuid %0llx,
 >&-1316	lelong		x		minimum percentage of free blocks %d,
 >&-1248	lelong		0		TIME optimization
@@ -1629,7 +1629,7 @@
 >&-180	lelong		x		average file size %d,
 >&-176	lelong		x		average number of files in dir %d,
 >&-272	lequad		x		pending blocks to free %lld,
->&-264	lelong		x		pending inodes to free %ld,
+>&-264	lelong		x		pending inodes to free %d,
 >&-664	lequad		x		system-wide uuid %0llx,
 >&-1316	lelong		x		minimum percentage of free blocks %d,
 >&-1248	lelong		0		TIME optimization
@@ -1669,7 +1669,7 @@
 >&-180	belong		x		average file size %d,
 >&-176	belong		x		average number of files in dir %d,
 >&-272	bequad		x		pending blocks to free %lld,
->&-264	belong		x		pending inodes to free %ld,
+>&-264	belong		x		pending inodes to free %d,
 >&-664	bequad		x		system-wide uuid %0llx,
 >&-1316	belong		x		minimum percentage of free blocks %d,
 >&-1248	belong		0		TIME optimization
@@ -1689,7 +1689,7 @@
 >&-180	belong		x		average file size %d,
 >&-176	belong		x		average number of files in dir %d,
 >&-272	bequad		x		pending blocks to free %lld,
->&-264	belong		x		pending inodes to free %ld,
+>&-264	belong		x		pending inodes to free %d,
 >&-664	bequad		x		system-wide uuid %0llx,
 >&-1316	belong		x		minimum percentage of free blocks %d,
 >&-1248	belong		0		TIME optimization
@@ -1965,24 +1965,24 @@
 
 # cramfs filesystem - russell@coker.com.au
 0       lelong    0x28cd3d45      Linux Compressed ROM File System data, little endian
->4      lelong  x size %lu
+>4      lelong  x size %u
 >8      lelong  &1 version #2
 >8      lelong  &2 sorted_dirs
 >8      lelong  &4 hole_support
 >32     lelong  x CRC 0x%x,
->36     lelong  x edition %lu,
->40     lelong  x %lu blocks,
->44     lelong  x %lu files
+>36     lelong  x edition %u,
+>40     lelong  x %u blocks,
+>44     lelong  x %u files
 
 0       belong    0x28cd3d45      Linux Compressed ROM File System data, big endian
->4      belong  x size %lu
+>4      belong  x size %u
 >8      belong  &1 version #2
 >8      belong  &2 sorted_dirs
 >8      belong  &4 hole_support
 >32     belong  x CRC 0x%x,
->36     belong  x edition %lu,
->40     belong  x %lu blocks,
->44     belong  x %lu files
+>36     belong  x edition %u,
+>40     belong  x %u blocks,
+>44     belong  x %u files
 
 # reiserfs - russell@coker.com.au
 0x10034		string	ReIsErFs	ReiserFS V3.5
@@ -2247,8 +2247,8 @@
 >16	ulequad	>0	\b fblock table at %lld,
 >24	ulequad	>0	\b inode table at %lld,
 >32	ulequad	>0	\b root at %lld,
->40	ulelong	>0	\b fblock size = %ld,
->44	ulelong	>0	\b block size = %ld,
+>40	ulelong	>0	\b fblock size = %d,
+>44	ulelong	>0	\b block size = %d,
 >48	ulequad	>0	\b bytes = %lld
 
 # Type:	xfs metadump image

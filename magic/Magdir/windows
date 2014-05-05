@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: windows,v 1.5 2012/04/03 22:25:07 christos Exp $
+# $File: windows,v 1.7 2014/04/28 12:04:50 christos Exp $
 # windows:  file(1) magic for Microsoft Windows
 #
 # This file is mainly reserved for files where programs
@@ -36,7 +36,7 @@
 >>0xf88	lelong		1		\b, full dump
 >>0xf88	lelong		2		\b, kernel dump
 >>0xf88	lelong		3		\b, small dump
->>0x068	lelong		x		\b, %ld pages
+>>0x068	lelong		x		\b, %d pages
 >4	string		DU64		MS Windows 64bit crash dump
 >>0xf98	lelong		1		\b, full dump
 >>0xf98	lelong		2		\b, kernel dump

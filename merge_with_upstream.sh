@@ -2,7 +2,11 @@ git fetch upstream
 git checkout master
 git merge -s ours upstream/master 2>&1|grep "Already up-to-date."
 RET=$?
-if [ $RET == 0 ]; then
+git diff -R upstream/master src/ magic/ > x.patch
+patch -p1 < x.patch
+git commit -a -m 'merge with upstream'
+RET2=$?
+if [ $RET != 0 -o RET2 == 0 ]; then
 	git push
 	make clean
 	autoreconf -f -i

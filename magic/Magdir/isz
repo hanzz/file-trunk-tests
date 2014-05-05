@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: clarion,v 1.4 2009/09/19 16:28:08 christos Exp $
+# $File: isz,v 1.2 2014/04/28 12:04:50 christos Exp $
 # ISO Zipped file format 
 # http://www.ezbsystems.com/isz/iszspec.txt
 0	string	IsZ!	ISO Zipped file

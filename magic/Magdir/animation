@@ -1,6 +1,6 @@
 
 #------------------------------------------------------------------------------
-# $File: animation,v 1.50 2014/03/01 03:01:45 christos Exp $
+# $File: animation,v 1.52 2014/04/28 12:04:50 christos Exp $
 # animation:  file(1) magic for animation/movie formats
 #
 # animation formats
@@ -621,7 +621,7 @@
 # Live MPEG-4 audio streams (instead of RTP FlexMux)
 0       beshort&0xFFE0  0x56E0         MPEG-4 LOAS
 !:mime	audio/x-mp4a-latm
-#>1     beshort&0x1FFF  x              \b, %u byte packet
+#>1     beshort&0x1FFF  x              \b, %hu byte packet
 >3      byte&0xE0       0x40
 >>4     byte&0x3C       0x04           \b, single stream
 >>4     byte&0x3C       0x08           \b, 2 streams
@@ -719,16 +719,16 @@
 !:mime	video/x-mng
 >4	belong			!0x0d0a1a0a	CORRUPTED,
 >4	belong			0x0d0a1a0a
->>16    belong	x				%ld x
->>20    belong	x				%ld
+>>16    belong	x				%d x
+>>20    belong	x				%d
 
 # JNG Video Format, <URL:http://www.libpng.org/pub/mng/spec/>
 0	string			\x8bJNG		JNG video data,
 !:mime	video/x-jng
 >4	belong			!0x0d0a1a0a	CORRUPTED,
 >4	belong			0x0d0a1a0a
->>16    belong	x				%ld x
->>20    belong	x				%ld
+>>16    belong	x				%d x
+>>20    belong	x				%d
 
 # Vivo video (Wolfram Kleff)
 3	string		\x0D\x0AVersion:Vivo	Vivo video data
