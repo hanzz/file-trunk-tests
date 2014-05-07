@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'VDI Image version 1.1 (<<< QEMU VM Virtual Disk Image >>>), 1024 bytes\n'
+S'VirtualBox Disk Image, major 1, minor 1 (<<< QEMU VM Virtual Disk Image >>>), 1024 bytes\n'
 p2
 sS'mime'
 p3
@@ -13,6 +13,6 @@ S'.img'
 p6
 sS'pattern'
 p7
-S'#msdos\n# Automatically generated from:\n#msdos:884\n64\tstring/b\t\\x7f\\x10\\xda\\xbe\tVDI Image\n>68\tstring/b\t\\x01\\x00\\x01\\x00\tversion 1.1\n>0\tstring\t\t>\\0\t\t\t(%s)\n>368\tlequad\t\tx\t\t\t \\b, %lld bytes\n'
+S'#virtual\n# Automatically generated from:\n#virtual:111\n0x40\tulelong\t\t0xbeda107f\tVirtualBox Disk Image\n>0x44\tuleshort\t>0\t\t\\b, major %u\n>0x46\tuleshort\t>0\t\t\\b, minor %u\n>0\tstring\t\t>\\0\t\t(%s)\n>368\tlequad\t\tx\t\t \\b, %lld bytes\n'
 p8
 s.

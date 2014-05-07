@@ -13,6 +13,6 @@ S'.img'
 p6
 sS'pattern'
 p7
-S'#msdos\n# Automatically generated from:\n#msdos:881\n0\tstring/b\tQED\\0\t\tQEMU QED Image\n'
+S'#virtual\n# Automatically generated from:\n#virtual:105\n0\tstring/b\tQED\\0\t\tQEMU QED Image\n'
 p8
 s.
