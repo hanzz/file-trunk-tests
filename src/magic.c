@@ -33,7 +33,7 @@
 #include "file.h"
 
 #ifndef	lint
-FILE_RCSID("@(#)$File: magic.c,v 1.80 2013/11/06 19:33:31 christos Exp $")
+FILE_RCSID("@(#)$File: magic.c,v 1.82 2014/05/13 16:38:23 christos Exp $")
 #endif	/* lint */
 
 #include "magic.h"
@@ -220,13 +220,15 @@ magic_open(int flags)
 private int
 unreadable_info(struct magic_set *ms, mode_t md, const char *file)
 {
-	/* We cannot open it, but we were able to stat it. */
-	if (access(file, W_OK) == 0)
-		if (file_printf(ms, "writable, ") == -1)
-			return -1;
-	if (access(file, X_OK) == 0)
-		if (file_printf(ms, "executable, ") == -1)
-			return -1;
+	if (file) {
+		/* We cannot open it, but we were able to stat it. */
+		if (access(file, W_OK) == 0)
+			if (file_printf(ms, "writable, ") == -1)
+				return -1;
+		if (access(file, X_OK) == 0)
+			if (file_printf(ms, "executable, ") == -1)
+				return -1;
+	}
 	if (S_ISREG(md))
 		if (file_printf(ms, "regular file, ") == -1)
 			return -1;
@@ -345,6 +347,9 @@ file_or_fd(struct magic_set *ms, const char *inname, int fd)
 	int	ispipe = 0;
 	off_t	pos = (off_t)-1;
 
+	if (file_reset(ms) == -1)
+		goto out;
+
 	/*
 	 * one extra for terminating '\0', and
 	 * some overlapping space for matches near EOF
@@ -352,9 +357,6 @@ file_or_fd(struct magic_set *ms, const char *inname, int fd)
 #define SLOP (1 + sizeof(union VALUETYPE))
 	if ((buf = CAST(unsigned char *, malloc(HOWMANY + SLOP))) == NULL)
 		return NULL;
-
-	if (file_reset(ms) == -1)
-		goto done;
 
 	switch (file_fsmagic(ms, inname, &sb)) {
 	case -1:		/* error */
@@ -434,6 +436,7 @@ done:
 	if (pos != (off_t)-1)
 		(void)lseek(fd, pos, SEEK_SET);
 	close_and_restore(ms, inname, fd, &sb);
+out:
 	return rv == 0 ? file_getbuffer(ms) : NULL;
 }
 
