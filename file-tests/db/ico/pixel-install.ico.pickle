@@ -13,6 +13,6 @@ S'.ico'
 p6
 sS'pattern'
 p7
-S'#msdos\n# Automatically generated from:\n#msdos:591\n0   belong  0x00000100\n>9  byte    0\n>>0 byte    x           MS Windows icon resource\n!:mime\timage/x-icon\n>>4 use     ico-dir\n>9  ubyte   0xff\n>>0 byte    x           MS Windows icon resource\n!:mime\timage/x-icon\n>>4 use     ico-dir\n'
+S'#msdos\n# Automatically generated from:\n#msdos:600\n0   belong  0x00000100\n>9  byte    0\n>>0 byte    x           MS Windows icon resource\n!:mime\timage/x-icon\n>>4 use     ico-dir\n>9  ubyte   0xff\n>>0 byte    x           MS Windows icon resource\n!:mime\timage/x-icon\n>>4 use     ico-dir\n'
 p8
 s.
