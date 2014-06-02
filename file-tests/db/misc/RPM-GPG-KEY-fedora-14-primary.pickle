@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'PGP public key block\n'
+p2
+sS'mime'
+p3
+S'application/pgp-keys; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#pgp\n# Automatically generated from:\n#pgp:21\n2\tstring\t---BEGIN\\ PGP\\ PUBLIC\\ KEY\\ BLOCK-\tPGP public key block\n!:mime\tapplication/pgp-keys\n'
+p8
+s.

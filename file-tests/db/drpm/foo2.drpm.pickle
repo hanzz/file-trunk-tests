@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Delta RPM livna-release-1:1-1 \n'
+p2
+sS'mime'
+p3
+S'application/x-rpm; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.drpm'
+p6
+sS'pattern'
+p7
+S'#rpm\n# Automatically generated from:\n#rpm:33\n0\tstring\t\tdrpm\t\tDelta RPM\n!:mime  application/x-rpm\n>12\tstring \tx\t%s\n>>8\tbeshort\t\t11\t\tMIPSel\n>>8\tbeshort\t\t12\t\tARM\n>>8\tbeshort\t\t13\t\tMiNT\n>>8\tbeshort\t\t14\t\tS/390\n>>8\tbeshort\t\t15\t\tS/390x\n>>8\tbeshort\t\t16\t\tPowerPC64\n>>8\tbeshort\t\t17\t\tSuperH\n>>8\tbeshort\t\t18\t\tXtensa\n>>10\tstring\t\tx\t\t%s\n'
+p8
+s.

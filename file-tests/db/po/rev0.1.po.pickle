@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'GNU gettext message catalogue, ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/x-po; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.1.po'
+p6
+sS'pattern'
+p7
+S'#gnu\n# Automatically generated from:\n#gnu:81\n0\tregex\t\\^msgid\\ \t\tGNU gettext message catalogue text\n!:mime text/x-po\n'
+p8
+s.

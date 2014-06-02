@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'SE Linux policy v24 8 symbols 7 ocons\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#database\n# Automatically generated from:\n#database:412\n0       lelong  0xf97cff8c      SE Linux policy\n>16     lelong  x               v%d\n>20     lelong  1      MLS\n>24     lelong  x       %d symbols\n>28     lelong  x       %d ocons\n'
+p8
+s.

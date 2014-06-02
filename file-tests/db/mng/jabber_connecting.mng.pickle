@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'MNG video data, 16 x 16\n'
+p2
+sS'mime'
+p3
+S'video/x-mng; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.mng'
+p6
+sS'pattern'
+p7
+S'#animation\n# Automatically generated from:\n#animation:717\n0\tstring\t\t\t\\x8aMNG\t\tMNG video data,\n!:mime\tvideo/x-mng\n>4\tbelong\t\t\t!0x0d0a1a0a\tCORRUPTED,\n>4\tbelong\t\t\t0x0d0a1a0a\n>>16    belong\tx\t\t\t\t%d x\n>>20    belong\tx\t\t\t\t%d\n'
+p8
+s.
