@@ -13,6 +13,6 @@ S''
 p6
 sS'pattern'
 p7
-S'#troff\n# Automatically generated from:\n#troff:18\n0\tregex/20\t\\^\\\\.[A-Za-z0-9][A-Za-z0-9][\\ \\t]\ttroff or preprocessor input text\n!:mime\ttext/troff\n'
+S'#troff\n# Automatically generated from:\n#troff:18\n0\tregex/20l\t\\^\\\\.[A-Za-z0-9][A-Za-z0-9][\\ \\t]\ttroff or preprocessor input text\n!:mime\ttext/troff\n'
 p8
 s.
