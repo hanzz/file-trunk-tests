@@ -9,7 +9,8 @@ git commit -a -m 'merge with upstream'
 
 grep diff x.patch
 RET2=$?
-if [ $RET != 0 -o RET2 != 0 ]; then
+echo "RET=$RET, RET2=$RET2"
+if [ $RET != 0 -o RET2 != 1 ]; then
 	git push
 	make clean
 	autoreconf -f -i
