@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'TIFF image data, little-endian\n'
+p2
+sS'mime'
+p3
+S'image/tiff; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.tif'
+p6
+sS'pattern'
+p7
+S'#images\n# Automatically generated from:\n#images:117\n0\tstring\t\tII\\x2a\\x00\tTIFF image data, little-endian\n!:mime\timage/tiff\n'
+p8
+s.

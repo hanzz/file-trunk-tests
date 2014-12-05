@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Perl script, ASCII text executable\n'
+p2
+sS'mime'
+p3
+S'text/x-perl; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#perl\n# Automatically generated from:\n#perl:19\n0\tsearch/1\t#!\n>0\tregex\t\\^#!.*/bin/perl$\tPerl script text executable\n!:mime\ttext/x-perl\n'
+p8
+s.

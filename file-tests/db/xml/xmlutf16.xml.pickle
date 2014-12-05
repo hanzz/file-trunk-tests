@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'XML 1.0 document, Little-endian UTF-16 Unicode text\n'
+p2
+sS'mime'
+p3
+S'application/xml; charset=utf-16le\n'
+p4
+sS'suffix'
+p5
+S'.xml'
+p6
+sS'pattern'
+p7
+S'#sgml\n# Automatically generated from:\n#sgml:76\n0\tstring/t\t\t\\<?xml\\ version="\tXML\n!:mime\tapplication/xml\n!:strength + 5\n>15\tstring/t\t>\\0\t\t\t%.3s document text\n>>23\tsearch/1\t\\<xsl:stylesheet\t(XSL stylesheet)\n>>24\tsearch/1\t\\<xsl:stylesheet\t(XSL stylesheet)\n'
+p8
+s.

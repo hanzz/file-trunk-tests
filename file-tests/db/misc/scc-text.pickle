@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/plain; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#cafebabe\n# Automatically generated from:\n#cafebabe:45\n0\tname\t\tmach-o\t\t\\b [\n>0\tuse\t\tmach-o-cpu\t\\b\n>&(8.L)\tindirect\t\t\t\\b: \n>0\tbelong\t\tx\t\t\\b]\n'
+p8
+s.

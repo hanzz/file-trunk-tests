@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Berkeley DB (Hash, version 9, native byte-order)\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.db'
+p6
+sS'pattern'
+p7
+S'#database\n# Automatically generated from:\n#database:54\n12\tlong\t0x00061561\tBerkeley DB\n>16\tlong\t>0\t\t(Hash, version %d, native byte-order)\n'
+p8
+s.

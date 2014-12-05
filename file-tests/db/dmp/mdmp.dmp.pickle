@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'MDMP crash report data\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.dmp'
+p6
+sS'pattern'
+p7
+S'#misctools\n# Automatically generated from:\n#misctools:22\n0\tstring\t\tMDMP\\x93\\xA7\t\t\t\tMDMP crash report data\n'
+p8
+s.

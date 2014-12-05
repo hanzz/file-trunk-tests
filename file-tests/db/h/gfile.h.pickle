@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'C source, ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/x-c; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.h'
+p6
+sS'pattern'
+p7
+S'#c-lang\n# Automatically generated from:\n#c-lang:12\n0\tregex\t\\^#include\tC source text\n!:mime\ttext/x-c\n'
+p8
+s.

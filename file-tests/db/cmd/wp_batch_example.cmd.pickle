@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'DOS batch file, ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/x-msdos-batch; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.cmd'
+p6
+sS'pattern'
+p7
+S'#msdos\n# Automatically generated from:\n#msdos:8\n0\tstring/t\t@\t\t\t\n>1\tstring/cW\t\\ echo\\ off\tDOS batch file text\n!:mime\ttext/x-msdos-batch\n>1\tstring/cW\techo\\ off\tDOS batch file text\n!:mime\ttext/x-msdos-batch\n>1\tstring/cW\trem\t\tDOS batch file text\n!:mime\ttext/x-msdos-batch\n>1\tstring/cW\tset\\ \t\tDOS batch file text\n!:mime\ttext/x-msdos-batch\n'
+p8
+s.
