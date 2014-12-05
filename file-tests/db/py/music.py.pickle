@@ -13,6 +13,6 @@ S'.py'
 p6
 sS'pattern'
 p7
-S'#python\n# Automatically generated from:\n#python:57\n0\tsearch/4096\ttry:\n>&0\tregex\t\\^\\\\s*except.*:\tPython script text executable\n!:mime text/x-python\n>&0\tsearch/4096\tfinally:\tPython script text executable\n!:mime text/x-python\n'
+S'#python\n# Automatically generated from:\n#python:58\n0\tsearch/4096\ttry:\n>&0\tregex\t\\^\\\\s*except.*:\tPython script text executable\n!:mime text/x-python\n>&0\tsearch/4096\tfinally:\tPython script text executable\n!:mime text/x-python\n'
 p8
 s.

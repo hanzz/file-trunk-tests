@@ -13,6 +13,6 @@ S'.pcd'
 p6
 sS'pattern'
 p7
-S'#images\n# Automatically generated from:\n#images:368\n2048\tstring\t\tPCD_IPI\t\tKodak Photo CD image pack file\n>0xe02\tbyte&0x03\t0x00\t\t, landscape mode\n>0xe02\tbyte&0x03\t0x01\t\t, portrait mode\n>0xe02\tbyte&0x03\t0x02\t\t, landscape mode\n>0xe02\tbyte&0x03\t0x03\t\t, portrait mode\n'
+S'#images\n# Automatically generated from:\n#images:452\n2048\tstring\t\tPCD_IPI\t\tKodak Photo CD image pack file\n>0xe02\tbyte&0x03\t0x00\t\t, landscape mode\n>0xe02\tbyte&0x03\t0x01\t\t, portrait mode\n>0xe02\tbyte&0x03\t0x02\t\t, landscape mode\n>0xe02\tbyte&0x03\t0x03\t\t, portrait mode\n'
 p8
 s.

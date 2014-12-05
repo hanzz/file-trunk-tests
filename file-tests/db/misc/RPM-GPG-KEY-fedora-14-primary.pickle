@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'PGP public key block\n'
+S'PGP public key block Public-Key (old)\n'
 p2
 sS'mime'
 p3
@@ -13,6 +13,6 @@ S''
 p6
 sS'pattern'
 p7
-S'#pgp\n# Automatically generated from:\n#pgp:21\n2\tstring\t---BEGIN\\ PGP\\ PUBLIC\\ KEY\\ BLOCK-\tPGP public key block\n!:mime\tapplication/pgp-keys\n'
+S'#pgp\n# Automatically generated from:\n#pgp:21\n2\tstring\t---BEGIN\\ PGP\\ PUBLIC\\ KEY\\ BLOCK-\tPGP public key block\n!:mime\tapplication/pgp-keys\n>10\tsearch/100\t\\n\\n\n>>&0\tuse\t\tpgp\n'
 p8
 s.

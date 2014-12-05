@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'TIFF image data, little-endian\n'
+S'TIFF image data, little-endian, direntries=13, height=24, bps=8, compression=LZW, PhotometricIntepretation=BlackIsZero, width=24\n'
 p2
 sS'mime'
 p3
@@ -13,6 +13,6 @@ S'.tif'
 p6
 sS'pattern'
 p7
-S'#images\n# Automatically generated from:\n#images:117\n0\tstring\t\tII\\x2a\\x00\tTIFF image data, little-endian\n!:mime\timage/tiff\n'
+S'#images\n# Automatically generated from:\n#images:118\n0\tstring\t\tII\\x2a\\x00\tTIFF image data, little-endian\n!:mime\timage/tiff\n>(4.l)\tuse\t\ttiff_ifd\n'
 p8
 s.

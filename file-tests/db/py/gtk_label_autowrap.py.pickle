@@ -13,6 +13,6 @@ S'.py'
 p6
 sS'pattern'
 p7
-S'#python\n# Automatically generated from:\n#python:64\n0\tregex\t \\^(\\ |\\\\t){0,50}def\\ {1,50}[a-zA-Z]{1,100}\n>&0\tregex\t\\ {0,50}\\\\(([a-zA-Z]|,|\\ ){1,255}\\\\):$ Python script text executable\n!:mime text/x-python\n'
+S'#python\n# Automatically generated from:\n#python:65\n0\tregex\t \\^(\\ |\\\\t){0,50}def\\ {1,50}[a-zA-Z]{1,100}\n>&0\tregex\t\\ {0,50}\\\\(([a-zA-Z]|,|\\ ){1,255}\\\\):$ Python script text executable\n!:mime text/x-python\n'
 p8
 s.

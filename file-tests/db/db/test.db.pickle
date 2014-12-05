@@ -13,6 +13,6 @@ S'.db'
 p6
 sS'pattern'
 p7
-S'#database\n# Automatically generated from:\n#database:54\n12\tlong\t0x00061561\tBerkeley DB\n>16\tlong\t>0\t\t(Hash, version %d, native byte-order)\n'
+S'#database\n# Automatically generated from:\n#database:62\n12\tlong\t0x00061561\tBerkeley DB\n>16\tlong\t>0\t\t(Hash, version %d, native byte-order)\n'
 p8
 s.

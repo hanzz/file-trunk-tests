@@ -13,6 +13,6 @@ S'.tdb'
 p6
 sS'pattern'
 p7
-S'#database\n# Automatically generated from:\n#database:407\n0\tstring\tTDB\\ file\t\tTDB database\n>32\tlelong\t0x2601196D\t\tversion 6, little-endian\n>>36\tlelong\tx\t\t\thash size %d bytes\n'
+S'#database\n# Automatically generated from:\n#database:458\n0\tstring\tTDB\\ file\t\tTDB database\n>32\tlelong\t0x2601196D\t\tversion 6, little-endian\n>>36\tlelong\tx\t\t\thash size %d bytes\n'
 p8
 s.
