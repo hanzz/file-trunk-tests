@@ -1,3 +1,4 @@
+#!/bin/bash
 export TZ="Europe/Prague"
 git fetch upstream
 git checkout master
