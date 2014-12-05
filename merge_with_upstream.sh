@@ -1,3 +1,4 @@
+export TZ="Europe/Prague"
 git fetch upstream
 git checkout master
 git merge -s ours upstream/master 2>&1|grep "Already up-to-date."
