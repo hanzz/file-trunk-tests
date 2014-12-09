@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'XML document text\n'
+p2
+sS'mime'
+p3
+S'application/xml; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.msc'
+p6
+sS'pattern'
+p7
+S'#sgml\n# Automatically generated from:\n#sgml:88\n0\tsearch/1/wbt\t\\<?xml\t\t\tXML document text\n!:mime\tapplication/xml\n!:strength - 10\n'
+p8
+s.

@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Matroska data\n'
+p2
+sS'mime'
+p3
+S'video/x-matroska; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.mkv'
+p6
+sS'pattern'
+p7
+S'#matroska\n# Automatically generated from:\n#matroska:9\n0\t\tbelong\t\t0x1a45dfa3\n>4\t\tsearch/4096 \t\\x42\\x82\n>>&1\t\tstring\t\twebm\t\tWebM\n!:mime  video/webm\n>>&1\t\tstring\t\tmatroska\tMatroska data\n!:mime  video/x-matroska\n'
+p8
+s.

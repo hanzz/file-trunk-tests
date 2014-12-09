@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'XPConnect Typelib version 1.2\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.xpt'
+p6
+sS'pattern'
+p7
+S'#varied.script\n# Automatically generated from:\n#varied.script:56\n0\tstring \t\tXPCOM\\nTypeLib\\r\\n\\032\t\tXPConnect Typelib\n>0x10  byte        x       version %d\n>>0x11 byte        x      \\b.%d\n'
+p8
+s.
