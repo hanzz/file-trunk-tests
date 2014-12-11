@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.39, not stripped\n'
+S'ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 2.6.39, not stripped\n'
 p2
 sS'mime'
 p3

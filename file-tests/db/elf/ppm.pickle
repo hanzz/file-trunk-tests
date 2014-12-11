@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), dynamically linked (uses shared libs), not stripped\n'
+S'ELF 64-bit MSB executable, IBM S/390, version 1 (SYSV), dynamically linked, not stripped\n'
 p2
 sS'mime'
 p3

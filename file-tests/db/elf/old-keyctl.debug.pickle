@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.18, BuildID[sha1]=9071f87f5884ead2e7127a8c8c72061bfb8c115c, not stripped\n'
+S'ELF 64-bit MSB executable, 64-bit PowerPC or cisco 7500, version 1 (SYSV), dynamically linked, for GNU/Linux 2.6.18, BuildID[sha1]=9071f87f5884ead2e7127a8c8c72061bfb8c115c, not stripped\n'
 p2
 sS'mime'
 p3
