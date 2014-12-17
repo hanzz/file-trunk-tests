@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'ELF 32-bit MSB core file SPARC, version 1 (SYSV), too many program header sections (13508)\n'
+S'ELF 32-bit MSB core file SPARC, version 1 (SYSV), too many program headers (13508)\n'
 p2
 sS'mime'
 p3
