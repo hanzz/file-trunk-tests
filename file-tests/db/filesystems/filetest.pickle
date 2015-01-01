@@ -13,6 +13,6 @@ S''
 p6
 sS'pattern'
 p7
-S'#filesystems\n# Automatically generated from:\n#filesystems:1541\n0x056\t\tulelong&0xFFFF0FFF\t0x909002EB\t\n>(0.s*2)\tulelong&0xFFFFFF00\t0x00040000\t\t\n>>0x002\t\tlestring16\tx\tMicrosoft Windows XP/VISTA bootloader %-5.5s\n>>0x12\t\tstring\t\t$\t\n>>>0x0c\t\tlestring16\tx\t\\b%-2.2s\n'
+S'#filesystems\n# Automatically generated from:\n#filesystems:1548\n0x056\t\tulelong&0xFFFF0FFF\t0x909002EB\t\n>(0.s*2)\tulelong&0xFFFFFF00\t0x00040000\t\t\n>>0x002\t\tlestring16\tx\tMicrosoft Windows XP/VISTA bootloader %-5.5s\n>>0x12\t\tstring\t\t$\t\n>>>0x0c\t\tlestring16\tx\t\\b%-2.2s\n'
 p8
 s.
