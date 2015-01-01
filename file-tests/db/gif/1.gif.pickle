@@ -13,6 +13,6 @@ S'.gif'
 p6
 sS'pattern'
 p7
-S'#images\n# Automatically generated from:\n#images:248\n0\tstring\t\tGIF8\t\tGIF image data\n!:mime\timage/gif\n!:apple\t8BIMGIFf\n>4\tstring\t\t7a\t\t\\b, version 8%s,\n>4\tstring\t\t9a\t\t\\b, version 8%s,\n>6\tleshort\t\t>0\t\t%d x\n>8\tleshort\t\t>0\t\t%d\n'
+S'#images\n# Automatically generated from:\n#images:281\n0\tstring\t\tGIF8\t\tGIF image data\n!:mime\timage/gif\n!:apple\t8BIMGIFf\n>4\tstring\t\t7a\t\t\\b, version 8%s,\n>4\tstring\t\t9a\t\t\\b, version 8%s,\n>6\tleshort\t\t>0\t\t%d x\n>8\tleshort\t\t>0\t\t%d\n'
 p8
 s.
