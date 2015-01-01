@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'JPEG image data, JFIF standard 1.02, resolution (DPI), density 96x96, segment length 16 Exif Standard (big endian)\n'
+S'JPEG image data, JFIF standard 1.02, resolution (DPI), density 96x96, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=2, software=Adobe Photoshop 7.0, datetime=2004:09:11 19:46:49]\n'
 p2
 sS'mime'
 p3
@@ -13,6 +13,6 @@ S'.jpg'
 p6
 sS'pattern'
 p7
-S'#jpeg\n# Automatically generated from:\n#jpeg:11\n0\tbeshort\t\t0xffd8\t\tJPEG image data\n!:mime\timage/jpeg\n!:apple\t8BIMJPEG\n!:strength +2\n>6\tstring\t\tJFIF\t\t\\b, JFIF standard\n>>11\tbyte\t\tx\t\t\\b %d.\n>>12\tbyte\t\tx\t\t\\b%02d\n>>13\tbyte\t\t0\t\t\\b, aspect ratio\n>>13\tbyte\t\t1\t\t\\b, resolution (DPI)\n>>13\tbyte\t\t2\t\t\\b, resolution (DPCM)\n>>14\tbeshort\t\tx\t\t\\b, density %dx\n>>16\tbeshort\t\tx\t\t\\b%d\n>>4\tbeshort\t\tx\t\t\\b, segment length %d\n>>18\tbyte\t\t!0\t\t\\b, thumbnail %dx\n>>>19\tbyte\t\tx\t\t\\b%d\n>(4.S+4)\tuse\t\tjpeg_segment\n'
+S'#jpeg\n# Automatically generated from:\n#jpeg:11\n0\tbeshort\t\t0xffd8\t\tJPEG image data\n!:mime\timage/jpeg\n!:apple\t8BIMJPEG\n!:strength +2\n>6\tstring\t\tJFIF\t\t\\b, JFIF standard\n>>11\tbyte\t\tx\t\t\\b %d.\n>>12\tbyte\t\tx\t\t\\b%02d\n>>13\tbyte\t\t0\t\t\\b, aspect ratio\n>>13\tbyte\t\t1\t\t\\b, resolution (DPI)\n>>13\tbyte\t\t2\t\t\\b, resolution (DPCM)\n>>14\tbeshort\t\tx\t\t\\b, density %dx\n>>16\tbeshort\t\tx\t\t\\b%d\n>>4\tbeshort\t\tx\t\t\\b, segment length %d\n>>18\tbyte\t\t!0\t\t\\b, thumbnail %dx\n>>>19\tbyte\t\tx\t\t\\b%d\n>6\tstring\t\tExif\t\t\\b, Exif standard: [\n>>12\tindirect\tx\n>>12\tstring\t\tx\t\t\\b]\n>(4.S+4)\tuse\t\tjpeg_segment\n'
 p8
 s.

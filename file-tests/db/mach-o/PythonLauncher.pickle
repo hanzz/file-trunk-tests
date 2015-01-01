@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'Mach-O universal binary with 2 architectures: [i386: Mach-O i386 executable] [ppc: Mach-O ppc executable]\n'
+S'Mach-O universal binary with 2 architectures: [i386] [ppc]\n'
 p2
 sS'mime'
 p3
@@ -13,6 +13,6 @@ S''
 p6
 sS'pattern'
 p7
-S'#mach\n# Automatically generated from:\n#mach:211\n0\tbelong&0xfffffffe\t0xfeedface\tMach-O\n!:strength +1\n>0\tuse\tmach-o-be\n'
+S'#cafebabe\n# Automatically generated from:\n#cafebabe:50\n0\tbelong\t\t0xcafebabe\n>4\tbelong\t\t1\t\tMach-O universal binary with 1 architecture:\n>>8\tuse\t\tmach-o\t\t\\b\n>4\tbelong\t\t>1\n>>4\tbelong\t\t<20\t\tMach-O universal binary with %d architectures:\n>>>8\tuse\t\tmach-o\t\t\\b\n>>>28\tuse\t\tmach-o\t\t\\b\n>>4\tbelong\t\t>2\n>>>48\tuse\t\tmach-o\t\t\\b\n>>4\tbelong\t\t>3\n>>>68\tuse\t\tmach-o\t\t\\b\n'
 p8
 s.
