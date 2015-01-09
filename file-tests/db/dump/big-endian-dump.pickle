@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'new-fs dump file (big endian),  Previous dump Mon Sep 24 09:53:12 2012, This dump Thu Jan  1 01:00:00 1970, Volume 1, Level zero, type: tape header, Label myext3fs, Filesystem /mnt/myext3fs, Device /dev/loop0, Host unknown.host.on.unknown.domain.com, Flags 3\n'
+S'new-fs dump file (big endian),  Previous dump Mon Sep 24 07:53:12 2012, This dump Thu Jan  1 00:00:00 1970, Volume 1, Level zero, type: tape header, Label myext3fs, Filesystem /mnt/myext3fs, Device /dev/loop0, Host unknown.host.on.unknown.domain.com, Flags 3\n'
 p2
 sS'mime'
 p3
