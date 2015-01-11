@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'Composite Document File V2 Document, No summary info\n'
+S'Composite Document File V2 Document, Cannot read section info\n'
 p2
 sS'mime'
 p3
-S'application/CDFV2-encrypted; charset=binary\n'
+S'application/CDFV2-unknown; charset=binary\n'
 p4
 sS'suffix'
 p5
