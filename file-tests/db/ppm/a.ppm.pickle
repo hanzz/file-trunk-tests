@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'Netpbm PGM image text, size = 200 x 200, ASCII text\n'
+S'Netpbm PPM image data, size = 200 x 200, greymap, ASCII text\n'
 p2
 sS'mime'
 p3
-S'image/x-portable-greymap; charset=us-ascii\n'
+S'text/plain; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
@@ -13,6 +13,6 @@ S'.ppm'
 p6
 sS'pattern'
 p7
-S'#images\n# Automatically generated from:\n#images:44\n0\tsearch/1\tP2\t\t\n>3\tregex\t\t=[0-9]{0,50}\\ [0-9]{0,50}\t\tNetpbm PGM image text\n>3\tregex\t\t=[0-9]{1,50}\\ \t\t\\b, size = %sx\n>>3\tregex\t\t=\\ [0-9]{1,50}\t\\b%s\n!:strength + 45\n!:mime\timage/x-portable-greymap\n'
+S'#images\n# Automatically generated from:\n#images:49\n0\tsearch/1\tP2\t\t\n>0\tuse\t\tnetpbm\n>>0\tstring\t\tx\t\\b, greymap\n!:strength + 45\n!:mime\timage/x-portable-greymap\n'
 p8
 s.

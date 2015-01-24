@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'Infocom (Z-machine 5, Release 1 / Serial 990528)\n'
+S'Hitachi SH big-endian COFF object, stripped\n'
 p2
 sS'mime'
 p3
@@ -13,6 +13,6 @@ S'.z5'
 p6
 sS'pattern'
 p7
-S'#adventure\n# Automatically generated from:\n#adventure:33\n0\tubyte\t\t\t>0\n>0\tubyte\t\t\t<9\n>>16\tbelong&0xfe00f0f0\t0x3030\n>>>0\tubyte\t\t\t< 10\n>>>>2\tubeshort\t\t< 10\n>>>>>18\tregex\t\t\t[0-9][0-9][0-9][0-9][0-9][0-9]\n>>>>>>0\tubyte\t\t\t< 10\tInfocom (Z-machine %d,\n>>>>>>>2\tubeshort\t< 10 \tRelease %d /\n>>>>>>>>18\tstring\t\t>\\0\tSerial %.6s)\n!:strength + 40\n'
+S'#hitachi-sh\n# Automatically generated from:\n#hitachi-sh:8\n0\tbeshort\t\t0x0500\t\tHitachi SH big-endian COFF\n>18\tbeshort&0x0002\t=0x0000\t\tobject\n>18\tbeshort&0x0002\t=0x0002\t\texecutable\n>18\tbeshort&0x0008\t=0x0008\t\t\\b, stripped\n>18\tbeshort&0x0008\t=0x0000\t\t\\b, not stripped\n'
 p8
 s.

@@ -13,6 +13,6 @@ S'.png'
 p6
 sS'pattern'
 p7
-S'#images\n# Automatically generated from:\n#images:278\n0\tstring\t\t\\x89PNG\\x0d\\x0a\\x1a\\x0a\t\tPNG image data\n!:mime\timage/png\n>16\tbelong\t\tx\t\t\\b, %d x\n>20\tbelong\t\tx\t\t%d,\n>24\tbyte\t\tx\t\t%d-bit\n>25\tbyte\t\t0\t\tgrayscale,\n>25\tbyte\t\t2\t\t\\b/color RGB,\n>25\tbyte\t\t3\t\tcolormap,\n>25\tbyte\t\t4\t\tgray+alpha,\n>25\tbyte\t\t6\t\t\\b/color RGBA,\n>28\tbyte\t\t0\t\tnon-interlaced\n>28\tbyte\t\t1\t\tinterlaced\n'
+S'#images\n# Automatically generated from:\n#images:284\n0\tstring\t\t\\x89PNG\\x0d\\x0a\\x1a\\x0a\t\tPNG image data\n!:mime\timage/png\n>16\tbelong\t\tx\t\t\\b, %d x\n>20\tbelong\t\tx\t\t%d,\n>24\tbyte\t\tx\t\t%d-bit\n>25\tbyte\t\t0\t\tgrayscale,\n>25\tbyte\t\t2\t\t\\b/color RGB,\n>25\tbyte\t\t3\t\tcolormap,\n>25\tbyte\t\t4\t\tgray+alpha,\n>25\tbyte\t\t6\t\t\\b/color RGBA,\n>28\tbyte\t\t0\t\tnon-interlaced\n>28\tbyte\t\t1\t\tinterlaced\n'
 p8
 s.
