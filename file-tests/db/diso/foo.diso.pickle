@@ -13,6 +13,6 @@ S'.diso'
 p6
 sS'pattern'
 p7
-S'#filesystems\n# Automatically generated from:\n#filesystems:2130\n0\tstring  DISO\tDelta ISO data\n!:strength +50\n>4\tbelong  x\tversion %d\n'
+S'#filesystems\n# Automatically generated from:\n#filesystems:2131\n0\tstring  DISO\tDelta ISO data\n!:strength +50\n>4\tbelong  x\tversion %d\n'
 p8
 s.
