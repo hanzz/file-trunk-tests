@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'HTML document, ASCII text\n'
+S'awk or perl script, ASCII text\n'
 p2
 sS'mime'
 p3
-S'text/html; charset=us-ascii\n'
+S'text/plain; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
@@ -13,6 +13,6 @@ S'.pm'
 p6
 sS'pattern'
 p7
-S'#sgml\n# Automatically generated from:\n#sgml:55\n0\tsearch/4096/cwt\t\\<script \t\tHTML document text\n!:mime\ttext/html\n!:strength + 5\n'
+S'#commands\n# Automatically generated from:\n#commands:58\n0\tregex/4096\t=^\\\\s{0,100}BEGIN\\\\s{0,100}[{]\tawk or perl script text\n'
 p8
 s.
