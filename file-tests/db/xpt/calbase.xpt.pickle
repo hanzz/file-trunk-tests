@@ -13,6 +13,6 @@ S'.xpt'
 p6
 sS'pattern'
 p7
-S'#varied.script\n# Automatically generated from:\n#varied.script:56\n0\tstring \t\tXPCOM\\nTypeLib\\r\\n\\032\t\tXPConnect Typelib\n>0x10  byte        x       version %d\n>>0x11 byte        x      \\b.%d\n'
+S'#varied.script\n# Automatically generated from:\n#varied.script:48\n0\tstring \t\tXPCOM\\nTypeLib\\r\\n\\032\t\tXPConnect Typelib\n>0x10  byte        x       version %d\n>>0x11 byte        x      \\b.%d\n'
 p8
 s.

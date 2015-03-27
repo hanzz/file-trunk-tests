@@ -13,6 +13,6 @@ S'.pm'
 p6
 sS'pattern'
 p7
-S'#perl\n# Automatically generated from:\n#perl:25\n0\tsearch/1\tpackage\n>0\tregex\t\t\\^package[\\ \\t]+[0-9A-Za-z_:]+\\ *;\tPerl5 module source text\n!:strength + 10\n'
+S'#perl\n# Automatically generated from:\n#perl:35\n0\tsearch/1024\tpackage\n>0\tregex\t\t\\^package[\\ \\t]+[0-9A-Za-z_:]+\\ *;\tPerl5 module source text\n!:strength + 10\n'
 p8
 s.

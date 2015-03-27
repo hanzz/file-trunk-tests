@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'Perl script, ASCII text executable\n'
+S'a /usr/bin/perl -w script, ASCII text executable\n'
 p2
 sS'mime'
 p3
-S'text/x-perl; charset=us-ascii\n'
+S'text/plain; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
@@ -13,6 +13,6 @@ S''
 p6
 sS'pattern'
 p7
-S'#perl\n# Automatically generated from:\n#perl:19\n0\tsearch/1\t#!\n>0\tregex\t\\^#!.*/bin/perl([[:space:]].*)*$\tPerl script text executable\n!:mime\ttext/x-perl\n'
+S'#varied.script\n# Automatically generated from:\n#varied.script:16\n0\tstring/t\t\t#!/\t\t\ta\n>2\tstring\t\t>\\0\t\t\t%s script text executable\n'
 p8
 s.
