@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'SVG Scalable Vector Graphics image\n'
+p2
+sS'mime'
+p3
+S'image/svg+xml; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.svg'
+p6
+sS'pattern'
+p7
+S'#sgml\n# Automatically generated from:\n#sgml:4\n0\tstring\t\t\\<?xml\\ version="\n>15\tstring\t\t>\\0\n>>19\tsearch/4096\t\\<svg\t\t\tSVG Scalable Vector Graphics image\n!:mime\timage/svg+xml\n>>19\tsearch/4096\t\\<gnc-v2\t\tGnuCash file\n!:mime\tapplication/x-gnucash\n'
+p8
+s.

@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'PEM certificate\n'
+p2
+sS'mime'
+p3
+S'text/plain; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.crt'
+p6
+sS'pattern'
+p7
+S'#ssl\n# Automatically generated from:\n#ssl:3\n0\tstring\t-----BEGIN\\ CERTIFICATE-----\tPEM certificate\n'
+p8
+s.

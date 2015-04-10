@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Microsoft ICM Color Profile\n'
+p2
+sS'mime'
+p3
+S'application/vnd.iccprofile; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.icc'
+p6
+sS'pattern'
+p7
+S'#icc\n# Automatically generated from:\n#icc:30\n36\tstring\t\tacspMSFT\tMicrosoft ICM Color Profile\n!:mime\tapplication/vnd.iccprofile\n'
+p8
+s.

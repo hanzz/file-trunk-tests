@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'sendmail m4 text file\n'
+p2
+sS'mime'
+p3
+S'text/x-m4; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.mc'
+p6
+sS'pattern'
+p7
+S'#sendmail\n# Automatically generated from:\n#sendmail:18\n0   string  divert(-1)\\n    sendmail m4 text file\n'
+p8
+s.

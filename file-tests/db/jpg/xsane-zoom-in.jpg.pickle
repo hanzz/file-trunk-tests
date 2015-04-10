@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, comment: "Created with The GIMP", baseline, precision 8, 30x30, frames 3\n'
+p2
+sS'mime'
+p3
+S'image/jpeg; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.jpg'
+p6
+sS'pattern'
+p7
+S'#jpeg\n# Automatically generated from:\n#jpeg:11\n0\tbeshort\t\t0xffd8\t\tJPEG image data\n!:mime\timage/jpeg\n!:apple\t8BIMJPEG\n!:strength *3\n!:ext jpeg,jpg,jpe,jfif\n>6\tstring\t\tJFIF\t\t\\b, JFIF standard\n>>11\tbyte\t\tx\t\t\\b %d.\n>>12\tbyte\t\tx\t\t\\b%02d\n>>13\tbyte\t\t0\t\t\\b, aspect ratio\n>>13\tbyte\t\t1\t\t\\b, resolution (DPI)\n>>13\tbyte\t\t2\t\t\\b, resolution (DPCM)\n>>14\tbeshort\t\tx\t\t\\b, density %dx\n>>16\tbeshort\t\tx\t\t\\b%d\n>>4\tbeshort\t\tx\t\t\\b, segment length %d\n>>18\tbyte\t\t!0\t\t\\b, thumbnail %dx\n>>>19\tbyte\t\tx\t\t\\b%d\n>6\tstring\t\tExif\t\t\\b, Exif standard: [\n>>12\tindirect/r\tx\n>>12\tstring\t\tx\t\t\\b]\n>(4.S+4)\tuse\t\tjpeg_segment\n'
+p8
+s.

@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Transport Neutral Encapsulation Format\n'
+p2
+sS'mime'
+p3
+S'application/vnd.ms-tnef; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.dat'
+p6
+sS'pattern'
+p7
+S'#mail.news\n# Automatically generated from:\n#mail.news:35\n0\tlelong\t\t0x223E9F78\tTransport Neutral Encapsulation Format\n!:mime\tapplication/vnd.ms-tnef\n'
+p8
+s.

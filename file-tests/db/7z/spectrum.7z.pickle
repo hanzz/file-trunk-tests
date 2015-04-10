@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'7-zip archive data, version 0.3\n'
+p2
+sS'mime'
+p3
+S'application/x-7z-compressed; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.7z'
+p6
+sS'pattern'
+p7
+S'#compress\n# Automatically generated from:\n#compress:186\n0\tstring\t\t7z\\274\\257\\047\\034\t7-zip archive data,\n>6\tbyte\t\tx\t\t\tversion %d\n>7\tbyte\t\tx\t\t\t\\b.%d\n!:mime\tapplication/x-7z-compressed\n'
+p8
+s.
