@@ -13,6 +13,6 @@ S'.1.po'
 p6
 sS'pattern'
 p7
-S'#gnu\n# Automatically generated from:\n#gnu:81\n0\tregex\t\\^msgid\\ \t\tGNU gettext message catalogue text\n!:mime text/x-po\n'
+S'#gnu\n# Automatically generated from:\n#gnu:81\n0\tsearch/1024\t\\nmsgid\n>&0\tsearch/1024\t\\nmsgstr\tGNU gettext message catalogue text\n!:strength +100\n!:mime text/x-po\n'
 p8
 s.
