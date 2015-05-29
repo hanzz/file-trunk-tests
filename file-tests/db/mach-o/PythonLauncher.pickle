@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'Mach-O universal binary with 2 architectures: [i386: Mach-O i386 executable] [ppc: Mach-O ppc executable]\n'
+S'Mach-O universal binary with 2 architectures: [i386: Mach-O i386 executable] [ppc: Mach-O ppc executable] []\n'
 p2
 sS'mime'
 p3
