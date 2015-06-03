@@ -5,7 +5,7 @@ S'PEM certificate\n'
 p2
 sS'mime'
 p3
-S'text/plain; charset=us-ascii\n'
+S'text/plain; charset=utf-7\n'
 p4
 sS'suffix'
 p5
