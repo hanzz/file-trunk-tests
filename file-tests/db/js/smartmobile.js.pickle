@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'UTF-7 Unicode text, with no line terminators\n'
+S'ASCII text\n'
 p2
 sS'mime'
 p3
-S'text/plain; charset=utf-7\n'
+S'text/plain; charset=us-ascii\n'
 p4
 sS'suffix'
 p5

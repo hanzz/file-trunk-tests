@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'UTF-7 Unicode text, with no line terminators\n'
+S'a /usr/bin/perl -w script, ASCII text executable\n'
 p2
 sS'mime'
 p3
-S'text/plain; charset=utf-7\n'
+S'text/plain; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
@@ -13,6 +13,6 @@ S'.pl'
 p6
 sS'pattern'
 p7
-S'#android\n# Automatically generated from:\n#android:109\n0\tname\t\t\tPIT-entry\n>0x00\t\tulequad&0xFFFFFFFCFFFFFFFC\t=0x0000000000000000\t\n>>0x24\t\tubyte\t\t\t\t!0\t\t\t\n>>>0x24\t\tstring\t\t\t\t>\\0\t\t\t%-.32s\n>>>0x0C\t\tulelong&0x00000002\t\t2\t\t\t\\b+RW\n>>>0x08\tulelong\t\tx\t\t\t(0x%x)\n>>>0x44\t\tstring\t\t\t\t>\\0\t\t\t"%-.64s"\n'
+S'#varied.script\n# Automatically generated from:\n#varied.script:16\n0\tstring/t\t\t#!/\t\t\ta\n>2\tstring\t\t>\\0\t\t\t%s script text executable\n'
 p8
 s.

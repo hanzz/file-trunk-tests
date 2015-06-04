@@ -5,7 +5,7 @@ S'XML document text\n'
 p2
 sS'mime'
 p3
-S'application/xml; charset=utf-7\n'
+S'application/xml; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
