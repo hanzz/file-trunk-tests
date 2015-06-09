@@ -5,7 +5,7 @@ S'Netpbm PPM image data, size = 200 x 200, greymap, ASCII text\n'
 p2
 sS'mime'
 p3
-S'text/plain; charset=us-ascii\n'
+S'image/x-portable-greymap; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
