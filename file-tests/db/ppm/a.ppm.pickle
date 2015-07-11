@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S'Netpbm PPM image data, size = 200 x 200, greymap, ASCII text\n'
+S'Netpbm image data, size = 200 x 200, greymap, ASCII text\n'
 p2
 sS'mime'
 p3
