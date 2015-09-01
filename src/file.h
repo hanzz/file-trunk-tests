@@ -27,7 +27,7 @@
  */
 /*
  * file.h - definitions for file(1) program
- * @(#)$File: file.h,v 1.168 2015/04/09 20:01:41 christos Exp $
+ * @(#)$File: file.h,v 1.170 2015/08/28 08:32:51 christos Exp $
  */
 
 #ifndef __file_h__
@@ -302,15 +302,15 @@ struct magic {
 #define num_mask _u._mask
 #define str_range _u._s._count
 #define str_flags _u._s._flags
-	/* Words 9-16 */
+	/* Words 9-24 */
 	union VALUETYPE value;	/* either number or string */
-	/* Words 17-32 */
+	/* Words 25-40 */
 	char desc[MAXDESC];	/* description */
-	/* Words 33-52 */
+	/* Words 41-60 */
 	char mimetype[MAXMIME]; /* MIME type */
-	/* Words 53-54 */
+	/* Words 61-62 */
 	char apple[8];		/* APPLE CREATOR/TYPE */
-	/* Words 55-63 */
+	/* Words 63-78 */
 	char ext[64];		/* Popular extensions */
 };
 
@@ -418,7 +418,7 @@ struct magic_set {
 #define	FILE_INDIR_MAX			15
 #define	FILE_NAME_MAX			30
 #define	FILE_ELF_SHNUM_MAX		32768
-#define	FILE_ELF_PHNUM_MAX		128
+#define	FILE_ELF_PHNUM_MAX		2048
 #define	FILE_ELF_NOTES_MAX		256
 };
 
