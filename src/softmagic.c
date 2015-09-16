@@ -32,7 +32,7 @@
 #include "file.h"
 
 #ifndef	lint
-FILE_RCSID("@(#)$File: softmagic.c,v 1.218 2015/09/11 17:24:09 christos Exp $")
+FILE_RCSID("@(#)$File: softmagic.c,v 1.220 2015/09/16 22:17:12 christos Exp $")
 #endif	/* lint */
 
 #include "magic.h"
@@ -228,17 +228,17 @@ match(struct magic_set *ms, struct magic *magic, uint32_t nmagic,
 			continue;
 		}
 
-		if ((e = handle_annotation(ms, m)) != 0) {
-			*need_separator = 1;
-			*printed_something = 1;
-			*returnval = 1;
-			return e;
-		}
 		/*
 		 * If we are going to print something, we'll need to print
 		 * a blank before we print something else.
 		 */
 		if (*m->desc) {
+			if ((e = handle_annotation(ms, m)) != 0) {
+				*need_separator = 1;
+				*printed_something = 1;
+				*returnval = 1;
+				return e;
+			}
 			*need_separator = 1;
 			*printed_something = 1;
 			if (print_sep(ms, firstline) == -1)
@@ -318,17 +318,17 @@ match(struct magic_set *ms, struct magic *magic, uint32_t nmagic,
 						break;
 				} else
 					ms->c.li[cont_level].got_match = 1;
-				if ((e = handle_annotation(ms, m)) != 0) {
-					*need_separator = 1;
-					*printed_something = 1;
-					*returnval = 1;
-					return e;
-				}
 				/*
 				 * If we are going to print something,
 				 * make sure that we have a separator first.
 				 */
 				if (*m->desc) {
+					if ((e = handle_annotation(ms, m)) != 0) {
+						*need_separator = 1;
+						*printed_something = 1;
+						*returnval = 1;
+						return e;
+					}
 					if (!*printed_something) {
 						*printed_something = 1;
 						if (print_sep(ms, firstline)
@@ -1098,12 +1098,6 @@ private int
 mcopy(struct magic_set *ms, union VALUETYPE *p, int type, int indir,
     const unsigned char *s, uint32_t offset, size_t nbytes, struct magic *m)
 {
-	if (offset >= nbytes) {
-		file_magerror(ms,
-		    "offset in magic %u greater than buffer size %zu",
-		    offset, nbytes);
-		return -1;
-	}
 	/*
 	 * Note: FILE_SEARCH and FILE_REGEX do not actually copy
 	 * anything, but setup pointers into the source
@@ -1268,7 +1262,7 @@ mget(struct magic_set *ms, const unsigned char *s, struct magic *m,
 		if (m->in_op & FILE_OPINDIRECT) {
 			const union VALUETYPE *q = CAST(const union VALUETYPE *,
 			    ((const void *)(s + offset + off)));
-			if (OFFSET_OOB(offset + off, nbytes, sizeof(*q)))
+			if (OFFSET_OOB(nbytes, offset + off, sizeof(*q)))
 				return 0;
 			switch (cvt_flip(m->in_type, flip)) {
 			case FILE_BYTE:
