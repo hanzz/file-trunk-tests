@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Hitachi SH big-endian COFF object, stripped\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.z5'
+p6
+sS'pattern'
+p7
+S'#hitachi-sh\n# Automatically generated from:\n#hitachi-sh:8\n0\tbeshort\t\t0x0500\t\tHitachi SH big-endian COFF\n>18\tbeshort&0x0002\t=0x0000\t\tobject\n>18\tbeshort&0x0002\t=0x0002\t\texecutable\n>18\tbeshort&0x0008\t=0x0008\t\t\\b, stripped\n>18\tbeshort&0x0008\t=0x0000\t\t\\b, not stripped\n'
+p8
+s.

@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Linux kernel x86 boot executable bzImage, version 3.1.5-1.fc16.x86_64 (mockbuild@x86-05.phx2.fedoraproject.org) #, RO-rootFS, swap_dev 0x4, Normal VGA\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#linux\n# Automatically generated from:\n#linux:103\n514\tstring\t\tHdrS\t\tLinux kernel\n!:strength + 55\n>510\tleshort\t\t0xAA55\t\tx86 boot executable\n>>518\tleshort\t\t>0x1ff\n>>>529\tbyte\t\t0\t\tzImage,\n>>>529\tbyte\t\t1\t\tbzImage,\n>>>526\tlelong\t\t>0\n>>>>(526.s+0x200) string\t>\\0\tversion %s,\n>>498\tleshort\t\t1\t\tRO-rootFS,\n>>498\tleshort\t\t0\t\tRW-rootFS,\n>>508\tleshort\t\t>0\t\troot_dev 0x%X,\n>>502\tleshort\t\t>0\t\tswap_dev 0x%X,\n>>504\tleshort\t\t>0\t\tRAMdisksize %u KB,\n>>506\tleshort\t\t0xFFFF\t\tNormal VGA\n>>506\tleshort\t\t0xFFFE\t\tExtended VGA\n>>506\tleshort\t\t0xFFFD\t\tPrompt for Videomode\n>>506\tleshort\t\t>0\t\tVideo mode %d\n'
+p8
+s.

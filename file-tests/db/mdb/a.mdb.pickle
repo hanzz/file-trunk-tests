@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'data\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.mdb'
+p6
+sS'pattern'
+p7
+S''
+p8
+s.

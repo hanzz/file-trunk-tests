@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'POSIX shell script, ASCII text executable\n'
+p2
+sS'mime'
+p3
+S'text/x-shellscript; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#commands\n# Automatically generated from:\n#commands:6\n0\tstring/wt\t#!\\ /bin/sh\t\tPOSIX shell script text executable\n!:mime\ttext/x-shellscript\n'
+p8
+s.

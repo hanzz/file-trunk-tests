@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'SQLite 3.x database\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.db'
+p6
+sS'pattern'
+p7
+S'#sql\n# Automatically generated from:\n#sql:56\n0   string  SQLite\\ format\\ 3\n>60 belong  =0x5f4d544e  Monotone source repository - SQLite3 database\n>68 belong  =0x0f055112  Fossil checkout - SQLite3 database\n>68 belong  =0x0f055113  Fossil global configuration - SQLite3 database\n>68 belong  =0x0f055111  Fossil repository - SQLite3 database\n>68 belong  =0x42654462  Bentley Systems BeSQLite Database - SQLite3 database\n>68 belong  =0x42654c6e  Bentley Systems Localization File - SQLite3 database\n>68 belong  =0x47504b47  OGC GeoPackage file - SQLite3 database\n>68 default x            SQLite 3.x database\n>>68 belong  !0          \\b, application id %u\n>>60 belong  !0          \\b, user version %d\n'
+p8
+s.

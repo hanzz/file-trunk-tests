@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Mach-O universal binary with 2 architectures: [i386: Mach-O i386 executable] [ppc: Mach-O ppc executable] []\n'
+p2
+sS'mime'
+p3
+S'application/x-mach-binary; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#mach\n# Automatically generated from:\n#mach:212\n0\tbelong&0xfffffffe\t0xfeedface\tMach-O\n!:strength +1\n!:mime application/x-mach-binary\n>0\tuse\tmach-o-be\n'
+p8
+s.
