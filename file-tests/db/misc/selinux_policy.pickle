@@ -13,6 +13,6 @@ S''
 p6
 sS'pattern'
 p7
-S'#database\n# Automatically generated from:\n#database:463\n0       lelong  0xf97cff8c      SE Linux policy\n>16     lelong  x               v%d\n>20     lelong  1      MLS\n>24     lelong  x       %d symbols\n>28     lelong  x       %d ocons\n'
+S'#database\n# Automatically generated from:\n#database:468\n0       lelong  0xf97cff8c      SE Linux policy\n>16     lelong  x               v%d\n>20     lelong  1      MLS\n>24     lelong  x       %d symbols\n>28     lelong  x       %d ocons\n'
 p8
 s.
