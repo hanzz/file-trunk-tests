@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# $File: archive,v 1.91 2015/09/16 13:49:33 christos Exp $
+# $File: archive,v 1.96 2015/10/10 15:36:32 christos Exp $
 # archive:  file(1) magic for archive formats (see also "msdos" for self-
 #           extracting compressed archives)
 #
@@ -603,6 +603,7 @@
 # RAR (Roshal Archive) archive
 0	string		Rar!\x1a\7\0		RAR archive data
 !:mime	application/x-rar
+!:ext	rar
 # file header
 >(0xc.l+9)	byte	0x74
 >>(0xc.l+7)	use	rar-file-header
@@ -613,9 +614,14 @@
 >>7		use	rar-archive-header
 
 0	string		Rar!\x1a\7\1\0		RAR archive data, v5
+!:mime	application/x-rar
+!:ext	rar
 
-# some old version? idarc says:
-0   string      RE\x7e\x5e  RAR archive data
+# Very old RAR archive
+# http://jasonblanks.com/wp-includes/images/papers/KnowyourarchiveRAR.pdf
+0	string		RE\x7e\x5e  RAR archive data (<v1.5)
+!:mime	application/x-rar
+!:ext	rar
 
 # SQUISH archiver (Greg Roelofs, newt@uchicago.edu)
 0	string		SQSH		squished archive data (Acorn RISCOS)
@@ -912,19 +918,16 @@
 # From "Nelson A. de Oliveira" <naoliv@gmail.com>
 0	string	MPQ\032		MoPaQ (MPQ) archive
 
-# From: Dirk Jagdmann <doj@cubic.org>
-# xar archive format: http://code.google.com/p/xar/
-0	string	xar!		xar archive
->6	beshort	x		- version %d
-
 # From: "Nelson A. de Oliveira" <naoliv@gmail.com>
 # .kgb
 0	string KGB_arch		KGB Archiver file
 >10	string x		with compression level %.1s
 
 # xar (eXtensible ARchiver) archive
+# xar archive format: http://code.google.com/p/xar/
 # From: "David Remahl" <dremahl@apple.com>
 0	string	xar!		xar archive
+!:mime	application/x-xar
 #>4	beshort	x		header size %d
 >6	beshort	x		version %d,
 #>8	quad	x		compressed TOC: %d,
@@ -998,3 +1001,9 @@
 >0xE08	search/7776		\x55\xAA	
 >>&-512	indirect		x		\b; contains 
 
+# Google Chrome extensions
+# https://developer.chrome.com/extensions/crx
+# https://developer.chrome.com/extensions/hosting
+0	string	Cr24	Google Chrome extension
+!:mime	application/x-chrome-extension
+>4	ulong	x	\b, version %u

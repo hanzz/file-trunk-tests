@@ -1,5 +1,5 @@
 #
-# $File: Makefile.am,v 1.102 2015/01/28 01:05:21 christos Exp $
+# $File: Makefile.am,v 1.104 2015/09/30 20:32:35 christos Exp $
 #
 MAGIC_FRAGMENT_BASE = Magdir
 MAGIC_DIR = $(top_srcdir)/magic
@@ -50,6 +50,7 @@ $(MAGIC_FRAGMENT_DIR)/citrus \
 $(MAGIC_FRAGMENT_DIR)/clarion \
 $(MAGIC_FRAGMENT_DIR)/claris \
 $(MAGIC_FRAGMENT_DIR)/clipper \
+$(MAGIC_FRAGMENT_DIR)/coff \
 $(MAGIC_FRAGMENT_DIR)/commands \
 $(MAGIC_FRAGMENT_DIR)/communications \
 $(MAGIC_FRAGMENT_DIR)/compress \
@@ -78,6 +79,7 @@ $(MAGIC_FRAGMENT_DIR)/erlang \
 $(MAGIC_FRAGMENT_DIR)/esri \
 $(MAGIC_FRAGMENT_DIR)/fcs \
 $(MAGIC_FRAGMENT_DIR)/filesystems \
+$(MAGIC_FRAGMENT_DIR)/finger \
 $(MAGIC_FRAGMENT_DIR)/flash \
 $(MAGIC_FRAGMENT_DIR)/fonts \
 $(MAGIC_FRAGMENT_DIR)/fortran \
