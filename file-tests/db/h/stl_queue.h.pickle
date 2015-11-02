@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'HTML document, ASCII text\n'
+S'C source, ASCII text\n'
 p2
 sS'mime'
 p3
-S'text/html; charset=us-ascii\n'
+S'text/x-c; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
@@ -13,6 +13,6 @@ S'.h'
 p6
 sS'pattern'
 p7
-S'#sgml\n# Automatically generated from:\n#sgml:83\n0\tsearch/4096/cwt\t\\<a\\ href=\t\tHTML document text\n!:mime\ttext/html\n!:strength + 5\n'
+S'#c-lang\n# Automatically generated from:\n#c-lang:13\n0\tregex\t\\^#include\tC source text\n!:strength +25\n!:mime\ttext/x-c\n'
 p8
 s.

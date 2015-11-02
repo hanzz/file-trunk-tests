@@ -13,6 +13,6 @@ S'.java'
 p6
 sS'pattern'
 p7
-S'#c-lang\n# Automatically generated from:\n#c-lang:37\n0\tregex\t\\^class[\\ \\t\\n]+\t\tC++ source text\n!:strength + 5\n!:mime\ttext/x-c++\n'
+S'#c-lang\n# Automatically generated from:\n#c-lang:39\n0\tregex\t\\^class[\\ \\t\\n]+\t\tC++ source text\n!:strength + 30\n!:mime\ttext/x-c++\n'
 p8
 s.

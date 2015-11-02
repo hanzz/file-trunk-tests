@@ -1,11 +1,11 @@
 (dp0
 S'output'
 p1
-S'Python script, ASCII text executable\n'
+S'C++ source, ASCII text\n'
 p2
 sS'mime'
 p3
-S'text/x-python; charset=us-ascii\n'
+S'text/x-c++; charset=us-ascii\n'
 p4
 sS'suffix'
 p5
@@ -13,6 +13,6 @@ S'.py'
 p6
 sS'pattern'
 p7
-S'#python\n# Automatically generated from:\n#python:42\n0\tregex\t\\^from\\\\s+(\\\\w|\\\\.)+\\\\s+import.*$\tPython script text executable\n!:mime text/x-python\n'
+S'#c-lang\n# Automatically generated from:\n#c-lang:39\n0\tregex\t\\^class[\\ \\t\\n]+\t\tC++ source text\n!:strength + 30\n!:mime\ttext/x-c++\n'
 p8
 s.

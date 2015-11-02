@@ -13,6 +13,6 @@ S'.pl'
 p6
 sS'pattern'
 p7
-S'#c-lang\n# Automatically generated from:\n#c-lang:12\n0\tregex\t\\^#include\tC source text\n!:mime\ttext/x-c\n'
+S'#c-lang\n# Automatically generated from:\n#c-lang:13\n0\tregex\t\\^#include\tC source text\n!:strength +25\n!:mime\ttext/x-c\n'
 p8
 s.
