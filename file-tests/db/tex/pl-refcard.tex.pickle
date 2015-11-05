@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'TeX document, ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/x-tex; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.tex'
+p6
+sS'pattern'
+p7
+S'#tex\n# Automatically generated from:\n#tex:39\n0\tsearch/4096\t\\\\input\t\tTeX document text\n!:mime\ttext/x-tex\n!:strength + 15\n'
+p8
+s.
