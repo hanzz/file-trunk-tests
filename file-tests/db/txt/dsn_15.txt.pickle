@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'RFC 822 mail, ASCII text\n'
+p2
+sS'mime'
+p3
+S'message/rfc822; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.txt'
+p6
+sS'pattern'
+p7
+S'#mail.news\n# Automatically generated from:\n#mail.news:29\n0\tstring/t\t\tReceived:\tRFC 822 mail text\n!:mime\tmessage/rfc822\n'
+p8
+s.

@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'PDF document, version 1.4\n'
+p2
+sS'mime'
+p3
+S'application/pdf; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.pdf'
+p6
+sS'pattern'
+p7
+S'#pdf\n# Automatically generated from:\n#pdf:6\n0\tstring\t\t%PDF-\t\tPDF document\n!:mime\tapplication/pdf\n>5\tbyte\t\tx\t\t\\b, version %c\n>7\tbyte\t\tx\t\t\\b.%c\n'
+p8
+s.
