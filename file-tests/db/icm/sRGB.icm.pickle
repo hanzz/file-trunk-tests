@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'ColorSync ICC Profile\n'
+p2
+sS'mime'
+p3
+S'application/vnd.iccprofile; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.icm'
+p6
+sS'pattern'
+p7
+S'#icc\n# Automatically generated from:\n#icc:26\n36\tstring\t\tacspAPPL\tColorSync ICC Profile\n!:mime\tapplication/vnd.iccprofile\n'
+p8
+s.

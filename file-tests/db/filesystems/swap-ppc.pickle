@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Linux/ppc swap file\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#linux\n# Automatically generated from:\n#linux:95\n65526\tstring\t\tSWAPSPACE2\tLinux/ppc swap file\n'
+p8
+s.

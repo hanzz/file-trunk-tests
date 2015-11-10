@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Standard MIDI data (format 1) using 2 tracks at 1/480\n'
+p2
+sS'mime'
+p3
+S'audio/midi; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.mid'
+p6
+sS'pattern'
+p7
+S'#audio\n# Automatically generated from:\n#audio:85\n0\tstring\tMThd\t\t\tStandard MIDI data\n!:mime\taudio/midi\n>8 \tbeshort\tx\t\t\t(format %d)\n>10\tbeshort\tx\t\t\tusing %d track\n>10\tbeshort\t\t>1\t\t\\bs\n>12\tbeshort&0x7fff\tx\t\tat 1/%d\n>12\tbeshort&0x8000\t>0\t\tSMPTE\n'
+p8
+s.

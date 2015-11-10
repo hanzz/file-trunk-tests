@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'PostScript document text conforming DSC level 3.0, Level 2\n'
+p2
+sS'mime'
+p3
+S'application/postscript; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.ps'
+p6
+sS'pattern'
+p7
+S'#printer\n# Automatically generated from:\n#printer:7\n0\tstring\t\t%!\t\tPostScript document text\n!:mime\tapplication/postscript\n!:apple\tASPSTEXT\n>2\tstring\t\tPS-Adobe-\tconforming\n>>11\tstring\t\t>\\0\t\tDSC level %.3s\n>>>15\tstring\t\tEPS\t\t\\b, type %s\n>>>15\tstring\t\tQuery\t\t\\b, type %s\n>>>15\tstring\t\tExitServer\t\\b, type %s\n>>>15   search/1000\t\t%%LanguageLevel:\\ \n>>>>&0\tstring\t\t>\\0\t\t\\b, Level %s\n'
+p8
+s.

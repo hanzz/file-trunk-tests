@@ -1,0 +1,17 @@
+(dp0
+S'output'
+p1
+S'data\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+g6
+s.

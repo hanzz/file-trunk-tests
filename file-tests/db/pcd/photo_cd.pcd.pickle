@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Kodak Photo CD image pack file , landscape mode\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.pcd'
+p6
+sS'pattern'
+p7
+S'#images\n# Automatically generated from:\n#images:520\n2048\tstring\t\tPCD_IPI\t\tKodak Photo CD image pack file\n>0xe02\tbyte&0x03\t0x00\t\t, landscape mode\n>0xe02\tbyte&0x03\t0x01\t\t, portrait mode\n>0xe02\tbyte&0x03\t0x02\t\t, landscape mode\n>0xe02\tbyte&0x03\t0x03\t\t, portrait mode\n'
+p8
+s.
