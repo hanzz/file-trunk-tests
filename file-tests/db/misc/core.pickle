@@ -1,7 +1,7 @@
 (dp0
 S'output'
 p1
-S"ELF 64-bit LSB core file x86-64, version 1 (SYSV), SVR4-style, from 'sleep 20', real uid: 501, effective uid: 501, real gid: 501, effective gid: 501, from: '/bin/sleep', platform: 'x86_64'\n"
+S"ELF 64-bit LSB core file x86-64, version 1 (SYSV), SVR4-style, from 'sleep 20', real uid: 501, effective uid: 501, real gid: 501, effective gid: 501, execfn: '/bin/sleep', platform: 'x86_64'\n"
 p2
 sS'mime'
 p3
