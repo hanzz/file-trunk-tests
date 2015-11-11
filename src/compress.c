@@ -35,7 +35,7 @@
 #include "file.h"
 
 #ifndef lint
-FILE_RCSID("@(#)$File: compress.c,v 1.84 2015/11/10 22:52:07 christos Exp $")
+FILE_RCSID("@(#)$File: compress.c,v 1.87 2015/11/11 22:26:30 christos Exp $")
 #endif
 
 #include "magic.h"
@@ -175,6 +175,7 @@ private int uncompresszlib(const unsigned char *, unsigned char **, size_t *,
 private int uncompressgzipped(const unsigned char *, unsigned char **,
     size_t *);
 #endif
+private const char *methodname(size_t);
 
 protected int
 file_zmagic(struct magic_set *ms, int fd, const char *name,
@@ -214,8 +215,8 @@ file_zmagic(struct magic_set *ms, int fd, const char *name,
 		case ERRDATA:
 			ms->flags &= ~MAGIC_COMPRESS;
 			if (rv == ERRDATA)
-				rv = file_printf(ms, "UNCOMPRESS ERROR: %s",
-				    newbuf);
+				rv = file_printf(ms, "%s ERROR: %s",
+				    methodname(i), newbuf);
 			else
 				rv = file_buffer(ms, -1, name, newbuf, nsz);
 			if (rv == -1)
@@ -534,7 +535,7 @@ static void
 copydesc(int i, int *fd)
 {
 	(void) close(i);
-	if (dup(fd[i == 0 ? 0 : 1]) == -1) {
+	if (dup(fd[i == STDIN_FILENO ? 0 : 1]) == -1) {
 		abort();
 		DPRINTF("dup[%d] failed (%s)\n", i, strerror(errno));
 		exit(1);
@@ -547,15 +548,15 @@ writechild(int fdp[3][2], const void *old, size_t n)
 {
 	int status;
 
-	closefd(fdp[0], 0);
+	closefd(fdp[STDIN_FILENO], 0);
 	/* 
 	 * fork again, to avoid blocking because both
 	 * pipes filled
 	 */
 	switch (fork()) {
 	case 0: /* child */
-		closefd(fdp[1], 0);
-		if (swrite(fdp[0][1], old, n) != (ssize_t)n) {
+		closefd(fdp[STDOUT_FILENO], 0);
+		if (swrite(fdp[STDIN_FILENO][1], old, n) != (ssize_t)n) {
 			DPRINTF("Write failed (%s)\n", strerror(errno));
 			exit(1);
 		}
@@ -574,7 +575,7 @@ writechild(int fdp[3][2], const void *old, size_t n)
 		}
 		DPRINTF("Grandchild wait return %#x\n", status);
 	}
-	closefd(fdp[0], 1);
+	closefd(fdp[STDIN_FILENO], 1);
 }
 
 static ssize_t
@@ -605,6 +606,17 @@ filter_error(unsigned char *ubuf, ssize_t n)
 	return n;
 }
 
+private const char *
+methodname(size_t method)
+{
+#ifdef BUILTIN_DECOMPRESS
+        /* FIXME: This doesn't cope with bzip2 */
+	if (method == 2 || compr[method].maglen == 0)
+	    return "zlib";
+#endif
+	return compr[method].argv[0];
+}
+
 private int
 uncompressbuf(int fd, size_t method, const unsigned char *old,
     unsigned char **newch, size_t* n)
@@ -627,17 +639,17 @@ uncompressbuf(int fd, size_t method, const unsigned char *old,
 	for (i = 0; i < __arraycount(fdp); i++)
 		fdp[i][0] = fdp[i][1] = -1;
 
-	if ((fd == -1 && pipe(fdp[0]) == -1) ||
-	    pipe(fdp[1]) == -1 || pipe(fdp[2]) == -1) {
-		closep(fdp[0]);
-		closep(fdp[1]);
+	if ((fd == -1 && pipe(fdp[STDIN_FILENO]) == -1) ||
+	    pipe(fdp[STDOUT_FILENO]) == -1 || pipe(fdp[STDERR_FILENO]) == -1) {
+		closep(fdp[STDIN_FILENO]);
+		closep(fdp[STDOUT_FILENO]);
 		return makeerror(newch, n, "Cannot create pipe, %s",
 		    strerror(errno));
 	}
 	switch (fork()) {
 	case 0:	/* child */
 		if (fd != -1) {
-			fdp[0][0] = fd;
+			fdp[STDIN_FILENO][0] = fd;
 			(void) lseek(fd, (off_t)0, SEEK_SET);
 		}
 		
@@ -646,7 +658,7 @@ uncompressbuf(int fd, size_t method, const unsigned char *old,
 
 		(void)execvp(compr[method].argv[0],
 		    (char *const *)(intptr_t)compr[method].argv);
-		dprintf(2, "exec `%s' failed, %s", 
+		dprintf(STDERR_FILENO, "exec `%s' failed, %s", 
 		    compr[method].argv[0], strerror(errno));
 		exit(1);
 		/*NOTREACHED*/
@@ -669,13 +681,15 @@ uncompressbuf(int fd, size_t method, const unsigned char *old,
 			goto err;
 		}
 		rv = OKDATA;
-		if ((r = sread(fdp[1][0], *newch, HOWMANY, 0)) > 0)
+		if ((r = sread(fdp[STDOUT_FILENO][0], *newch, HOWMANY, 0)) > 0)
 			break;
-		DPRINTF("Read stdout failed %d (%s)\n", fdp[1][0],
+		DPRINTF("Read stdout failed %d (%s)\n", fdp[STDOUT_FILENO][0],
 		    r != -1 ? strerror(errno) : "no data");
 
 		rv = ERRDATA;
-		if (r == 0 && (r = sread(fdp[2][0], *newch, HOWMANY, 0)) > 0) {
+		if (r == 0 &&
+		    (r = sread(fdp[STDERR_FILENO][0], *newch, HOWMANY, 0)) > 0)
+		{
 			r = filter_error(*newch, r);
 			break;
 		}
@@ -693,9 +707,9 @@ uncompressbuf(int fd, size_t method, const unsigned char *old,
 	(*newch)[*n] = '\0';
 	DPRINTF("got [[[%s]]]\n", *newch);
 err:
-	closefd(fdp[0], 1);
-	closefd(fdp[1], 0);
-	closefd(fdp[2], 0);
+	closefd(fdp[STDIN_FILENO], 1);
+	closefd(fdp[STDOUT_FILENO], 0);
+	closefd(fdp[STDERR_FILENO], 0);
 	if (wait(&status) == -1) {
 		free(*newch);
 		rv = makeerror(newch, n, "Wait failed, %s", strerror(errno));
@@ -706,7 +720,7 @@ err:
 		DPRINTF("Child exited (0x%d)\n", WEXITSTATUS(status));
 	}
 
-	closefd(fdp[0], 0);
+	closefd(fdp[STDIN_FILENO], 0);
 	DPRINTF("Returning %p n=%zu rv=%d\n", *newch, *n, rv);
     
 	return rv;
