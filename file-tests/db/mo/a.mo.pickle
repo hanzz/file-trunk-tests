@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'GNU message catalog (little endian), revision 0.0, 141 messages\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.mo'
+p6
+sS'pattern'
+p7
+S'#gnu\n# Automatically generated from:\n#gnu:9\n0\tstring\t\t\\336\\22\\4\\225\tGNU message catalog (little endian),\n>6\tleshort\t\tx\t\trevision %d.\n>4\tleshort\t\t>0\t\t\\b%d,\n>>8\tlelong\t\tx\t\t%d messages,\n>>36\tlelong\t\tx\t\t%d sysdep messages\n>4\tleshort\t\t=0\t\t\\b%d,\n>>8\tlelong\t\tx\t\t%d messages\n'
+p8
+s.

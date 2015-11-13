@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'LaTeX document, ISO-8859 text\n'
+p2
+sS'mime'
+p3
+S'text/x-tex; charset=iso-8859-1\n'
+p4
+sS'suffix'
+p5
+S'.tex'
+p6
+sS'pattern'
+p7
+S'#tex\n# Automatically generated from:\n#tex:45\n0\tsearch/4096\t\\\\section\tLaTeX document text\n!:mime\ttext/x-tex\n!:strength + 18\n'
+p8
+s.

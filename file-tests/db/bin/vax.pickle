@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'VAX-order 68k Blit mpx/mux executable\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S''
+p6
+sS'pattern'
+p7
+S'#blit\n# Automatically generated from:\n#blit:16\n0\tshort\t\t03001\t\tVAX-order 68k Blit mpx/mux executable\n'
+p8
+s.

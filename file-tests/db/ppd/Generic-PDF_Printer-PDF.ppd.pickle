@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'PPD file, version "4.3"\n'
+p2
+sS'mime'
+p3
+S'text/plain; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.ppd'
+p6
+sS'pattern'
+p7
+S'#printer\n# Automatically generated from:\n#printer:45\n0\tstring\t\t*PPD-Adobe:\\x20\tPPD file\n>&0\tstring\t\tx\t\t\\b, version %s\n'
+p8
+s.

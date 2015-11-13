@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'RPM v3.0 src\n'
+p2
+sS'mime'
+p3
+S'application/x-rpm; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.rpm'
+p6
+sS'pattern'
+p7
+S'#rpm\n# Automatically generated from:\n#rpm:6\n0\tbelong\t\t0xedabeedb\tRPM\n!:mime\tapplication/x-rpm\n>4\tbyte\t\tx\t\tv%d\n>5\tbyte\t\tx\t\t\\b.%d\n>6\tbeshort\t\t1\t\tsrc\n>6\tbeshort\t\t0\t\tbin\n>>8\tbeshort\t\t1\t\ti386/x86_64\n>>8\tbeshort\t\t2\t\tAlpha/Sparc64\n>>8\tbeshort\t\t3\t\tSparc\n>>8\tbeshort\t\t4\t\tMIPS\n>>8\tbeshort\t\t5\t\tPowerPC\n>>8\tbeshort\t\t6\t\t68000\n>>8\tbeshort\t\t7\t\tSGI\n>>8\tbeshort\t\t8\t\tRS6000\n>>8\tbeshort\t\t9\t\tIA64\n>>8\tbeshort\t\t10\t\tSparc64\n>>8\tbeshort\t\t11\t\tMIPSel\n>>8\tbeshort\t\t12\t\tARM\n>>8\tbeshort\t\t13\t\tMiNT\n>>8\tbeshort\t\t14\t\tS/390\n>>8\tbeshort\t\t15\t\tS/390x\n>>8\tbeshort\t\t16\t\tPowerPC64\n>>8\tbeshort\t\t17\t\tSuperH\n>>8\tbeshort\t\t18\t\tXtensa\n>>8\tbeshort\t\t255\t\tnoarch\n'
+p8
+s.
