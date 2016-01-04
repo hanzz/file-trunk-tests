@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'MS Windows help Bookmark, 1051272 bytes\n'
+p2
+sS'mime'
+p3
+S'application/x-winhelp; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.hlp'
+p6
+sS'pattern'
+p7
+S'#windows\n# Automatically generated from:\n#windows:95\n0\tlelong\t\t0x00035f3f\t\t\n>(4.l+9)\tuleshort\t0x293B\t\tMS\n>>0xD4\t\tstring\t=\\x62\\x6D\\x66\\x01\\x00\tWindows help annotation\n!:mime\tapplication/x-winhelp\n!:ext\tann\n>>0xD4\t\tstring\t!\\x62\\x6D\\x66\\x01\\x00\t\n>>>(4.l+0x65)\tstring\t=|Pete\t\t\tWindows help Global Index\n!:mime\tapplication/x-winhelp\n!:ext\tgid\n>>>(4.l+0x65)\t\tstring\t\t!|Pete\t\t\n>>>>16\t\t\tsearch/0x49AF/s\t\\x6c\\x03 \t\n>>>>>&0\t\t\tuse \t\thelp-ver-date\n>>>>>&4\t\t\tleshort\t\t!1\t\t\n>>>>>>&0\t\tsearch/0x69AF/s\t\\x6c\\x03 \t\n>>>>>>>&0\t\tuse \t\thelp-ver-date\n>>>>>>>&4\t\tleshort\t\t!1\t\t\n>>>>>>>>&0\t\tsearch/0x49AF/s\t\\x6c\\x03 \t\n>>>>>>>>>&0\t\tuse \t\thelp-ver-date\n>>>>>>>>>&4\t\tleshort\t\t!1\t\t\n>>>>>>>>>>&0\t\tsearch/0x49AF/s\t\\x6c\\x03 \t\n>>>>>>>>>>>&0\t\tuse \t\thelp-ver-date\n>>>>>>>>>>>&4\t\tleshort\t\t!1\t\t\n>>>>>>>>>>>>&0\t\tsearch/0x49AF/s\t\\x6c\\x03 \t\n>>>>>>>>>>>>>&0\t\tuse \t\thelp-ver-date\n>>>>>>>>>>>>>&4\t\tleshort\t\t!1\t\t\n>>>>>>>>>>>>>>&0\tsearch/0x49AF/s\t\\x6c\\x03 \t\n>>>>>>>>>>>>>>>&0\tuse \t\thelp-ver-date\n>>>>>>>>>>>>>>>&4\tleshort\t\t!1\t\t\n>>>>>>>>>>>>>>>>&0\tsearch/0x49AF/s\t\\x6c\\x03 \t\n>>>>>>>>>>>>>>>>>&0\tuse \t\thelp-ver-date\n>>>>>>>>>>>>>>>>>&4\tleshort\t\t!1\t\tWindows y.z help\n!:mime\tapplication/winhelp\n!:ext\thlp\n>>>>16\t\t\tsearch/0x49AF/s\t\\x6c\\x03 \t\n>>>>16\tdefault\t\t\t\tx\tWindows help Bookmark\n!:mime\tapplication/x-winhelp\n!:ext\t/bmk\n>>12\tlelong\t\t\tx\t\t\\b, %d bytes\n'
+p8
+s.

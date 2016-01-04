@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Linux Software Map entry text (new format), ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/plain; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.lsm'
+p6
+sS'pattern'
+p7
+S'#linux\n# Automatically generated from:\n#linux:130\n0\tsearch/1\tBegin4\tLinux Software Map entry text (new format)\n'
+p8
+s.

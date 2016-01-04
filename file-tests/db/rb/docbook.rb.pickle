@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'Ruby module source, ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/x-ruby; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.rb'
+p6
+sS'pattern'
+p7
+S'#ruby\n# Automatically generated from:\n#ruby:24\n0\tregex\t\t\\^[\\ \\t]*(class|module)[\\ \\t][A-Z]\n>0\tregex\t\t(modul|includ)e\\ [A-Z]|def\\ [a-z]\n>>0\tregex\t\t\\^[\\ \\t]*end([\\ \\t]*[;#].*)?$\t\tRuby module source text\n!:mime\ttext/x-ruby\n'
+p8
+s.

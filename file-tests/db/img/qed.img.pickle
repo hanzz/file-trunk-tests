@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'QEMU QED Image\n'
+p2
+sS'mime'
+p3
+S'application/octet-stream; charset=binary\n'
+p4
+sS'suffix'
+p5
+S'.img'
+p6
+sS'pattern'
+p7
+S'#virtual\n# Automatically generated from:\n#virtual:105\n0\tstring/b\tQED\\0\t\tQEMU QED Image\n'
+p8
+s.

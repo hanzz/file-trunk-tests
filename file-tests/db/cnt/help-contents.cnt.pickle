@@ -1,0 +1,18 @@
+(dp0
+S'output'
+p1
+S'MS Windows help file Content, based "help-contents.hlp", ASCII text\n'
+p2
+sS'mime'
+p3
+S'text/plain; charset=us-ascii\n'
+p4
+sS'suffix'
+p5
+S'.cnt'
+p6
+sS'pattern'
+p7
+S'#windows\n# Automatically generated from:\n#windows:182\n0\t\tregex\t\t\\^(:|;)\t\t\n>0\t\tsearch/45\t:Base \t\t\n>>&0\t\t\t\tuse \t\tcnt-name\n>0\t\tsearch/45\t:Base \t\t\n>0\t\tdefault\t\tx\t\t\n>>0\t\tsearch/45\t:Title \t\t\n>>>&0\t\t\t\tuse \t\tcnt-name\n'
+p8
+s.
